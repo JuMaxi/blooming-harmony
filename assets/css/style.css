@@ -1,0 +1,9 @@
+/* Hero section */
+.hero-section {
+    background: url("../images/hero-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 8rem 0;
+}
+
