@@ -105,14 +105,13 @@
                     <div class="row align-items-center">
                         <!-- First Column: Text Content -->
                         <div class="col-lg-6 mb-4">
-                            <h2 class="display-5">Why Sustainability Matters?</h2>
-                            <p class="lead">Sustainability is essential for preserving our planet, ensuring a healthy environment, and creating a better future for generations to come.</p>
-                            <p>Gardening sustainably not only helps reduce your environmental footprint but also fosters a thriving ecosystem. By preserving wildlife, you create a balanced habitat where plants, animals, and insects coexist harmoniously, promoting biodiversity and natural pest control.</p>
+                            <h2 class="display-5">Embrace the Joy of Sustainable Gardening</h2>
+                            <p>Caring for sustainability and wildlife is vital for ensuring a thriving planet for future generations. By living in harmony with nature, we not only preserve the beauty and balance of our environment but also pass on a legacy of responsibility and respect for the earth. Embracing sustainable practices fosters a healthier ecosystem, where plants, animals, and humans coexist and flourish together.</p>
                             <a href="#read-more" class="btn btn-success btn-lg">Read More</a>
                         </div>
                         <!-- Second Column: Responsive Image -->
                         <div class="col-lg-6">
-                            <img src="assets/images/introduction-to-garden.jpg" alt="Sustainability" class="img-fluid rounded">
+                            <img src="assets/images/introduction-to-garden.jpg" alt="Sustainability" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -133,6 +132,15 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Section to sustainability cards -->
+            <section id="cards" class="py-5 px-3">
+                <div class="container">
+                    <div class="row">
+
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
 
@@ -146,5 +154,23 @@
     <script src="https://kit.fontawesome.com/6ec5d9a39e.js" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const navbarCollapse = document.getElementById('navbarNav');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (window.innerWidth < 992) { // Adjust breakpoint as needed
+                        const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+                            toggle: true
+                        });
+                        bsCollapse.hide();
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>

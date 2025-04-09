@@ -1,3 +1,17 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+    color: #233819;
+
+}
+
+h1,
+h2 {
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+
 /* Hero section */
 .hero-section {
     background: url("../images/hero1-image.jpg");
