@@ -10,9 +10,16 @@
 
 body {
     font-family: var(--primary-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
+    padding-top: 90px; /* Adjust this value based on the height of your navbar */
 }
 
+/* Navbar */
+.navbar {
+    background-color: #B89CA6;
+}
+
+/* Headings */
 h1,
 h2,
 h3 {
