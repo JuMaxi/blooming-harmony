@@ -112,7 +112,7 @@ section .container {
 .plant-tag {
     width: auto;
     height: auto;
-    background: linear-gradient(to left, #d8e9d1d7,  #f6fff4);
+    background: linear-gradient(to left, #b49a8f,  #eccabc);
     padding: 20px;
     position: relative;
     clip-path: polygon(
