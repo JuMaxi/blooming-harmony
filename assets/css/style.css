@@ -4,6 +4,7 @@
 /* CSS Variables */
 :root {
     --primary-color: #233819;
+    --secondary-color:  #b2c4ab;
     --primary-font: 'Karla', sans-serif;
     --secondary-font: 'Cormorant Garamond', sans-serif;
 }
@@ -11,21 +12,26 @@
 body {
     font-family: var(--primary-font);
     color: var(--primary-color);
-    padding-top: 90px; /* Adjust this value based on the height of your navbar */
+
 }
 
 /* Navbar */
 .navbar {
-    background-color: #B89CA6;
+    background-color: var(--secondary-color);
+    padding-bottom: 0;
 }
 
 /* Headings */
 h1,
 h2,
 h3 {
-    font-family: var(--secondary-font)
+    font-family: var(--secondary-font);
 }
 
+.nav-item > a{
+    color: white;
+    font-weight: bolder;
+}
 /* Hero section */
 .hero-section {
     background: url("../images/hero.jpg");
@@ -45,7 +51,7 @@ section .container {
 
 /* Quote section */
 .blockquote p {
-    color: #DDB892;
+    color: #4F6F42;
 }
 
 
@@ -77,6 +83,29 @@ section .container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/dandelion.jpg");
 }
 
+/* Carousel */
+.carousel-inner img {
+    height: 600px; /* Set a fixed height */
+    width: 100%; /* Ensure the image spans the full width of the carousel */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the container */
+}
+
+/* A background image to the message about seasons */
+#seasons .calendar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/calendar.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Ensures the image is centered */
+    color: white;
+    font-weight: bolder;
+
+    /* Ensure sections adjust height based on content */
+    min-height: 50vh; /* Adjusts height to be responsive */
+    text-align: center; /* Centers text */
+    padding: 2rem; /* Adds padding for better spacing */
+}
+
+
 /* A plant tag as a background to contains the title section to cards 
     I didn't know how to draw it, so asked chat gpt to generate and adjusted as my need */
 .plant-tag {
@@ -97,10 +126,6 @@ section .container {
     justify-content: center;
 }
 
-#seasons .plant-tag {
-    width:70%;
-}
-
 .align-margin {
     margin-left: 0;
     margin-right: 0;
@@ -108,19 +133,25 @@ section .container {
  
 /* Cards section style */
 .card {
-    min-height: 230px; /* Set your desired minimum height */
+    min-height: 200px; /* Set your desired minimum height */
     box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.055); /* Adds a shadow effect */
 }
 
 .card-img-top {
     width: 100%; /* Ensures the image spans the full width of the card */
-    height: 200px; /* Sets a fixed height */
+    height: 200px; /* Set a fixed height */
     object-fit: cover; /* Ensures the image is cropped to fit the dimensions without distortion */
     border-radius: 0;
 }
 
 /* Footer */
 footer {
-    background-color: green;
+    background-color: var(--secondary-color);
 }
 
+/* Adjust padding for the body when the navbar is fixed screen 992px and up */
+@media screen and (min-width: 992px) {
+    body {
+        padding-top: 70px /* Adjust this value based on the height of your navbar */
+    }
+}
