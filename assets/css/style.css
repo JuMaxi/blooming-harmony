@@ -4,7 +4,7 @@
 /* CSS Variables */
 :root {
     --primary-color: #233819;
-    --secondary-color:  #b2c4ab;
+    --secondary-color:  #54392d;
     --primary-font: 'Karla', sans-serif;
     --secondary-font: 'Cormorant Garamond', sans-serif;
 }
@@ -12,13 +12,17 @@
 body {
     font-family: var(--primary-font);
     color: var(--primary-color);
-
 }
 
 /* Navbar */
 .navbar {
     background-color: var(--secondary-color);
     padding-bottom: 0;
+}
+
+.nav-item > a{
+    color: white;
+    font-weight: bolder;
 }
 
 /* Headings */
@@ -28,10 +32,7 @@ h3 {
     font-family: var(--secondary-font);
 }
 
-.nav-item > a{
-    color: white;
-    font-weight: bolder;
-}
+
 /* Hero section */
 .hero-section {
     background: url("../images/hero.jpg");
@@ -139,7 +140,7 @@ section .container {
 
 .card-img-top {
     width: 100%; /* Ensures the image spans the full width of the card */
-    height: 200px; /* Set a fixed height */
+    height: 250px; /* Set a fixed height */
     object-fit: cover; /* Ensures the image is cropped to fit the dimensions without distortion */
     border-radius: 0;
 }
@@ -147,6 +148,7 @@ section .container {
 /* Footer */
 footer {
     background-color: var(--secondary-color);
+    color: white;
 }
 
 /* Adjust padding for the body when the navbar is fixed screen 992px and up */
