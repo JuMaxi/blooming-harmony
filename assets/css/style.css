@@ -28,7 +28,7 @@ h3 {
 
 /* Hero section */
 .hero-section {
-    background: url("../images/hero1-image.jpg");
+    background: url("../images/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -36,15 +36,54 @@ h3 {
     color: white;
 }
 
+/* Quote section */
+#quote {
+    background: linear-gradient(to right, #d8e9d1d7,  #f6fff4);
+}
+
+.blockquote-footer {
+    background: linear-gradient(to right, #d8e9d1d7,  #f6fff4);
+}
+
+/* First introductory section */
+.starting,
+.pollinators,
+.weeds {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Ensures the image is centered */
+    color: white;
+    font-weight: bolder;
+
+    /* Ensure sections adjust height based on content */
+    min-height: 50vh; /* Adjusts height to be responsive */
+    text-align: center; /* Centers text */
+    padding: 2rem; /* Adds padding for better spacing */
+}
+
+.starting {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/getting-started.jpg");
+}
+
+.pollinators {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/bee.jpg");
+}
+
+.weeds {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/dandelion.jpg");
+}
+
 /* Cards section style */
 .card {
     min-height: 230px; /* Set your desired minimum height */
+    box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.055); /* Adds a shadow effect */
 }
 
 .card-img-top {
     width: 100%; /* Ensures the image spans the full width of the card */
     height: 200px; /* Sets a fixed height */
     object-fit: cover; /* Ensures the image is cropped to fit the dimensions without distortion */
+    border-radius: 0;
 }
 
 /* Footer */
