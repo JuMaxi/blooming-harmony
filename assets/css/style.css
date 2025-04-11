@@ -7,6 +7,7 @@
     --secondary-color:  #54392d;
     --primary-font: 'Karla', sans-serif;
     --secondary-font: 'Cormorant Garamond', sans-serif;
+    --color-hover-navbar: #E9C46A;
 }
 
 body {
@@ -23,18 +24,33 @@ body {
 .nav-item > a {
     color: white;
     font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .nav-item > a:hover{
-    color: #E9C46A;
+    color: var(--color-hover-navbar);
     font-weight: bolder;
 }
 
 /* Remove default browser outline (it was blue, do not match with my navbar background color) */
 input:focus {
-    border: 3px solid #E9C46A; /* Change border color on focus */
+    border: 3px solid green; /* Change border color on focus */
     outline: none; 
     box-shadow: none; 
+} 
+
+/* Remove default border on the input Search */
+input {
+    border: none; 
+}
+
+/* Created this class to change button type search to the same navbar background */
+.search {
+    background-color: var(--secondary-color);
+}
+
+.search:hover {
+    background-color: green;
 }
 
 /* Headings */
