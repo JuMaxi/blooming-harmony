@@ -112,7 +112,7 @@ section .container {
 .plant-tag {
     width: auto;
     height: auto;
-    background: linear-gradient(to left, #b49a8f,  #eccabc);
+    background: linear-gradient(to left, #d8bbaf,  #e6ddd9);
     padding: 20px;
     position: relative;
     clip-path: polygon(
@@ -127,11 +127,6 @@ section .container {
     justify-content: center;
 }
 
-.align-margin {
-    margin-left: 0;
-    margin-right: 0;
-}
- 
 /* Cards section style */
 .card {
     min-height: 200px; /* Set your desired minimum height */
