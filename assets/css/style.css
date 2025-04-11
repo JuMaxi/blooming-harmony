@@ -20,9 +20,21 @@ body {
     padding-bottom: 0;
 }
 
-.nav-item > a{
+.nav-item > a {
     color: white;
     font-weight: bolder;
+}
+
+.nav-item > a:hover{
+    color: #E9C46A;
+    font-weight: bolder;
+}
+
+/* Remove default browser outline (it was blue, do not match with my navbar background color) */
+input:focus {
+    border: 3px solid #E9C46A; /* Change border color on focus */
+    outline: none; 
+    box-shadow: none; 
 }
 
 /* Headings */
@@ -31,7 +43,6 @@ h2,
 h3 {
     font-family: var(--secondary-font);
 }
-
 
 /* Hero section */
 .hero-section {
