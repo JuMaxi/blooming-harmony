@@ -7,7 +7,7 @@
     --secondary-color:  #0A3D24;
     --primary-font: 'Karla', sans-serif;
     --secondary-font: 'Cormorant Garamond', sans-serif;
-    --color-hover-navbar: #E9C46A; /* Light yellow color for hover effect on navbar links */
+    --hover-color: #E9C46A; /* Light yellow color for hover effect on navbar links */
     --color-background: #fdf9f6;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .nav-item > a:hover{
-    color: var(--color-hover-navbar);
+    color: var(--hover-color);
     font-weight: bolder;
 }
 
@@ -52,7 +52,7 @@ body {
 
 /* Change the color of the toggle button to yellow when hovered */
 .navbar-toggler:hover {
-    border-color: var(--color-hover-navbar); 
+    border-color: var(--hover-color); 
 }
 .navbar-toggler:hover .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23E9C46A' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -203,7 +203,7 @@ li > a{
 
 /* Change the color of the links in the footer when hovered */
 li > a:hover{
-    color: var(--color-hover-navbar);
+    color: var(--hover-color);
     font-weight: bolder;
 }
 
@@ -215,7 +215,7 @@ li > a:hover{
 
 /* Change the color of the social media icons in the footer when hovered */
 .social-media > a:hover{
-    color: var(--color-hover-navbar);
+    color: var(--hover-color);
 }
 
 /* Adjust the max height of the image in the footer */
