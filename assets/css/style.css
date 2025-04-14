@@ -4,7 +4,7 @@
 /* CSS Variables */
 :root {
     --primary-color: #233819;
-    --secondary-color:  #54392d;
+    --secondary-color:  #0A3D24;
     --primary-font: 'Karla', sans-serif;
     --secondary-font: 'Cormorant Garamond', sans-serif;
     --color-hover-navbar: #E9C46A;
@@ -13,6 +13,7 @@
 body {
     font-family: var(--primary-font);
     color: var(--primary-color);
+    padding-bottom: 48px; /* Space for the fixed footer */
 }
 
 /* Navbar */
@@ -32,7 +33,7 @@ body {
     font-weight: bolder;
 }
 
-/* Remove default browser outline (it was blue, do not match with my navbar background color) */
+/* Remove default browser outline (it was blue, that didn't match with my navbar background color) */
 input:focus {
     border: 3px solid green; /* Change border color on focus */
     outline: none; 
@@ -133,27 +134,6 @@ section .container {
     padding: 2rem; /* Adds padding for better spacing */
 }
 
-
-/* A plant tag as a background to contains the title section to cards 
-    I didn't know how to draw it, so asked chat gpt to generate and adjusted as my need */
-.plant-tag {
-    width: auto;
-    height: auto;
-    background: linear-gradient(to left, #d8bbaf,  #e6ddd9);
-    padding: 20px;
-    position: relative;
-    clip-path: polygon(
-      0% 0%, 
-      80% 0%, 
-      100% 50%, 
-      80% 100%, 
-      0% 100%
-    );
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 /* Cards section style */
 .card {
     min-height: 200px; /* Set your desired minimum height */
@@ -170,12 +150,29 @@ section .container {
 /* Footer */
 footer {
     background-color: var(--secondary-color);
-    color: white;
+    padding-top: 20px;
 }
 
-/* Adjust padding for the body when the navbar is fixed screen 992px and up */
-@media screen and (min-width: 992px) {
-    body {
-        padding-top: 70px /* Adjust this value based on the height of your navbar */
-    }
+/* Make the last row footer fixed */
+.bottom-fixed {
+    padding-top: 10px;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    z-index: 1000;
+    background-color: var(--secondary-color);
+}
+
+/* Adjust the max height of the image in the footer */
+.footer-img {
+    max-height: 150px;
+}
+
+/* Fix the button to ocupy just its width content */
+@media screen and (min-width: 320px) {
+   .subscribe {
+        width: fit-content;
+        display: block;
+        margin: 0 auto;
+   }
 }
