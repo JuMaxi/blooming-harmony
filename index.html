@@ -276,21 +276,14 @@
 
     <footer class="text-white">
         <div class="container-fluid">
-            <div class="row">
-                <!-- Column 1: Newsletter Form -->
-                <div class="col-12 col-xl-7 mb-4 mb-md-0 text-start">
-                    <h5 class="text-center">Sign up to our Newsletter:</h5>
-                    <form class="d-flex flex-column flex-sm-row mt-3">
-                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0" placeholder="Enter your email">
-                        <button type="submit" class="btn btn-success subscribe">Subscribe</button>
-                    </form>
-                </div>
+            <!--On screens with less than 992px the content justify center. 992px and up justify between -->
+            <div class="row justify-content-center justify-content-lg-between">
     
-                <!-- Column 2: Links and Social Media -->
-                <div class="col-12 col-lg-6 col-xl-3 mb-4 text-center mt-lg-4">
+                <!-- Column 1: Links and Social Media -->
+                <div class="col-12 col-lg-3 mb-4 text-center links">
                     <ul class="list-unstyled mt-3">
-                        <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+                        <li><a href="#" class="text-white">About Us</a></li>
+                        <li><a href="#" class="text-white">Contact Us</a></li>
                     </ul>
                     <div class="mt-3">
                         <a href="https://www.facebook.com/?locale=en_GB" class="text-white me-3" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
@@ -299,14 +292,20 @@
                         <a href="https://uk.pinterest.com" class="text-white" target="_blank"><i class="fa-brands fa-pinterest fa-lg"></i></a>
                     </div>
                 </div>
-    
-                <!-- Column 3: Responsive Image -->
-                <div class="col-12 col-lg-6 col-xl-2 d-flex justify-content-center justify-content-xl-end align-items-center mt-lg-4">
-                    <img src="assets/images/image-footer.png" class="img-fluid footer-img" alt="Fox, butterflies, bird and flowers">
+
+                <!-- Column 1: Newsletter Form -->
+                <div class="col-12 col-lg-6 mb-4 text-center mt-lg-4">
+                    <h5 class="text-center">Sign up to our Newsletter:</h5>
+                    <form class="d-flex flex-column flex-sm-row mt-3">
+                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0" placeholder="Enter your email">
+                        <button type="submit" class="btn btn-success subscribe">Subscribe</button>
+                    </form>
                 </div>
-            </div>
-            <div class="brown-border">
-                <br>
+
+                <!-- Column 3: Responsive Image -->
+                <div class="col-12 col-lg-3 d-flex align-items-center links">
+                    <img src="assets/images/image-footer2.png" class="img-fluid footer-img" alt="Fox, butterflies, bird and flowers">
+                </div>
             </div>
             <div class="row bottom-fixed text-center">
                 <p>&copy; 2023 Blooming Harmony. All rights reserved.</p>

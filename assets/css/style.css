@@ -13,7 +13,7 @@
 body {
     font-family: var(--primary-font);
     color: var(--primary-color);
-    padding-bottom: 48px; /* Space for the fixed footer */
+    padding-bottom: 72px; /* Space for the fixed footer */
 }
 
 /* Navbar */
@@ -155,7 +155,7 @@ footer {
 
 /* Make the last row footer fixed */
 .bottom-fixed {
-    padding-top: 10px;
+    padding-top: 9px;
     position: fixed; 
     bottom: 0; 
     width: 100%; 
@@ -165,7 +165,13 @@ footer {
 
 /* Adjust the max height of the image in the footer */
 .footer-img {
-    max-height: 150px;
+    max-height: 93px;
+}
+
+/* This class is adjusting the links and image footer to its content */
+.links {
+    width: fit-content;
+    padding-left: 12px;
 }
 
 /* Fix the button to ocupy just its width content */
@@ -175,4 +181,11 @@ footer {
         display: block;
         margin: 0 auto;
    }
+}
+
+/* Adjust the footer for larger screens 576px and up */
+@media screen and (min-width: 576px) {
+    body {
+        padding-bottom: 48px; /* Space for the fixed footer */
+    }
 }
