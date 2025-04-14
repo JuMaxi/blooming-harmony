@@ -7,7 +7,7 @@
     --secondary-color:  #0A3D24;
     --primary-font: 'Karla', sans-serif;
     --secondary-font: 'Cormorant Garamond', sans-serif;
-    --color-hover-navbar: #E9C46A;
+    --color-hover-navbar: #737D57;
 }
 
 body {
@@ -41,19 +41,17 @@ body {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-/* Remove default browser outline (it was blue, that didn't match with my navbar background color) */
-input:focus {
-    border: 3px solid green; /* Change border color on focus */
-    outline: none; 
-    box-shadow: none; 
-} 
-
-/* Remove default border on the input Search */
-input {
-    border: none; 
+/* Forms */
+/* Change the border color to white */
+form .search {
+    border: 1px solid white;
+}
+/* Change the input search border to none */
+form input[type="search"] {
+    border: none;
 }
 
-/* Created this class to change button type search to the same navbar background */
+/* Change the color of the background search button to green */
 .search {
     background-color: var(--secondary-color);
 }
@@ -180,6 +178,14 @@ footer {
 .links {
     width: fit-content;
     padding-left: 12px;
+}
+
+/* Adjust the style subscribe button */
+.subscribe {
+    border: 2px solid white;
+}
+.subscribe:hover {
+    background-color: green;
 }
 
 /* Fix the button to ocupy just its width content */
