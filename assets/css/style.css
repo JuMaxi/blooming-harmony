@@ -7,13 +7,15 @@
     --secondary-color:  #0A3D24;
     --primary-font: 'Karla', sans-serif;
     --secondary-font: 'Cormorant Garamond', sans-serif;
-    --color-hover-navbar: #737D57;
+    --color-hover-navbar: #E9C46A; /* Light yellow color for hover effect on navbar links */
+    --color-background: #fdf9f6;
 }
 
 body {
     font-family: var(--primary-font);
     color: var(--primary-color);
     padding-bottom: 72px; /* Space for the fixed footer */
+    background-color: var(--color-background)/* Light background color */
 }
 
 /* Navbar */
@@ -41,10 +43,25 @@ body {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+/* Returning the toggle to white */
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: white;
+}
+
+/* Change the color of the toggle button to yellow when hovered */
+.navbar-toggler:hover {
+    border-color: var(--color-hover-navbar); 
+}
+.navbar-toggler:hover .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23E9C46A' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 /* Forms */
 /* Change the border color to white */
 form .search {
-    border: 1px solid white;
+    border: none;
 }
 /* Change the input search border to none */
 form input[type="search"] {
@@ -58,6 +75,7 @@ form input[type="search"] {
 
 .search:hover {
     background-color: green;
+    border: 1px solid green;
 }
 
 /* Headings */
@@ -65,11 +83,12 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
+    
 }
 
 /* Hero section */
 .hero-section {
-    background: url("../images/hero.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -89,6 +108,9 @@ section .container {
     color: #4F6F42;
 }
 
+.blockquote-footer {
+    background-color: var(--color-background);
+}
 
 /* First introductory section */
 .starting,
@@ -153,6 +175,11 @@ section .container {
     border-radius: 0;
 }
 
+.card-title,
+.card-text {
+    color: var(--primary-color);
+}
+
 /* Footer */
 footer {
     background-color: var(--secondary-color);
@@ -167,6 +194,28 @@ footer {
     width: 100%; 
     z-index: 1000;
     background-color: var(--secondary-color);
+}
+
+/* Adjust the color of the links in the footer */
+li > a{
+    color: white
+}
+
+/* Change the color of the links in the footer when hovered */
+li > a:hover{
+    color: var(--color-hover-navbar);
+    font-weight: bolder;
+}
+
+/* Adjust the color of the social media icons in the footer */
+.social-media > a{
+    color: white;
+    font-size: 1.4rem;
+}
+
+/* Change the color of the social media icons in the footer when hovered */
+.social-media > a:hover{
+    color: var(--color-hover-navbar);
 }
 
 /* Adjust the max height of the image in the footer */
