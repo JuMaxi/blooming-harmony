@@ -33,6 +33,14 @@ body {
     font-weight: bolder;
 }
 
+/* Change the color of the toggle button to white */
+.navbar-toggler {
+    border-color: white; /* Optional: white border */
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 /* Remove default browser outline (it was blue, that didn't match with my navbar background color) */
 input:focus {
     border: 3px solid green; /* Change border color on focus */
