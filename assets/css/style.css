@@ -188,8 +188,18 @@ section .container {
     color: var(--primary-color);
 }
 
-.rounded-pill {
-    background-color: var(--secondary-color);
+.border-spring {
+    border-color: #A87DBD !important; /* Light pink color */
+}
+.badge-spring {
+    background-color: #A87DBD; /* Light pink color */
+}
+
+.border-autumn {
+    border-color: #925148 !important; /* Light pink color */
+}
+.badge-autumn {
+    background-color: #925148; /* Light pink color */
 }
 
 /* Footer */
