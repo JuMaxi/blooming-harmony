@@ -30,6 +30,12 @@ body {
     text-transform: uppercase;
 }
 
+/* To make the active link more visible */
+.active {
+    color: white; /* Active link color */
+    text-decoration: underline; /* Underline for active link */
+}
+
 .nav-item > a:hover{
     color: var(--hover-color);
     font-weight: bolder;
