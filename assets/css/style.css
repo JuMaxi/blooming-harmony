@@ -188,6 +188,7 @@ section .container {
     color: var(--primary-color);
 }
 
+/* Adjust the color of the badges  and timeline border to custom colors */
 .border-spring {
     border-color: #A87DBD !important; /* Light pink color */
 }
@@ -202,6 +203,30 @@ section .container {
     background-color: #925148; /* Light pink color */
 }
 
+.winter-card,
+.spring-card,
+.summer-card,
+.autumn-card {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Ensures the image is centered */
+    border:white;
+}
+.winter-card {
+    background-image: url(../images/ice.png);
+}
+
+.spring-card {
+    background-image: url(../images/flowers.png);
+}
+
+.summer-card {
+    background-image: url(../images/sun.png);
+}
+
+.autumn-card {
+    background-image: url(../images/leaves.png);
+}
 /* Footer */
 footer {
     background-color: var(--secondary-color);
