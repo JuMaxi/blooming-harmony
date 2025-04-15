@@ -102,6 +102,8 @@ h3 {
     color: white;
 }
 
+/* Main content */
+
 /* Using width 80% to specific sections to make my homepage more dinamic 
     The .container is using 80% width and .container-fluid using 100% */
 section .container {
@@ -184,6 +186,10 @@ section .container {
 .card-title,
 .card-text {
     color: var(--primary-color);
+}
+
+.rounded-pill {
+    background-color: var(--secondary-color);
 }
 
 /* Footer */
