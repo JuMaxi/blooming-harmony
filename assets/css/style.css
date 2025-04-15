@@ -188,7 +188,7 @@ section .container {
     color: var(--primary-color);
 }
 
-/* Adjust the color of the badges  and timeline border to custom colors */
+/* Adjust the color of the badges and timeline border to custom colors */
 .border-spring {
     border-color: #A87DBD !important; /* Light pink color */
 }
@@ -203,6 +203,7 @@ section .container {
     background-color: #925148; /* Light pink color */
 }
 
+/* Add background images to the seasons cards and style it */
 .winter-card,
 .spring-card,
 .summer-card,
@@ -214,6 +215,8 @@ section .container {
 }
 .winter-card {
     background-image: url(../images/ice.png);
+    background-color: rgba(255,255,255,0.6); /* Light background color */
+    background-blend-mode: lighten; /* Blends the image with the background color */
 }
 
 .spring-card {
@@ -222,10 +225,14 @@ section .container {
 
 .summer-card {
     background-image: url(../images/sun.png);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
 }
 
 .autumn-card {
     background-image: url(../images/leaves.png);
+    background-color: rgba(255,255,255,0.8);
+    background-blend-mode: lighten;
 }
 /* Footer */
 footer {
