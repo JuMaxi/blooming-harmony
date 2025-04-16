@@ -188,6 +188,8 @@ section .container {
     color: var(--primary-color);
 }
 
+/* Seasons html */
+
 /* Adjust the color of the badges and timeline border to custom colors */
 .border-spring {
     border-color: #A87DBD !important; /* Light pink color */
@@ -255,6 +257,16 @@ a .card:hover {
 transform: scale(1.03); /* Slightly increase the size */
 box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Deeper shadow for depth */
 z-index: 1; /* Makes sure it appears above others if overlapping */
+}
+/* Finish seasons hmtl */
+
+/* About Us section */
+#about {
+    background-image: url("../images/flowers-6554536_1920.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Ensures the image is centered */
+    opacity: 1; /* Adjusts the opacity of the background */
 }
 
 /* Footer */
