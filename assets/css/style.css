@@ -261,12 +261,21 @@ z-index: 1; /* Makes sure it appears above others if overlapping */
 /* Finish seasons hmtl */
 
 /* About Us section */
+
 #about {
-    background-image: url("../images/flowers-6554536_1920.png");
-    background-size: cover;
+    background-image: url("../images/about-background.png");
     background-repeat: no-repeat;
-    background-position: center; /* Ensures the image is centered */
-    opacity: 1; /* Adjusts the opacity of the background */
+    background-color: rgba(255,255,255,0.9); /* Light background color */
+    background-blend-mode: lighten; /* Blends the image with the background color, brings opacity to the image */
+    background-position-y: bottom; /* Adjusts the vertical position of the background image to the bottom */
+    background-position-x: right; /* Adjusts the horizontal position of the background image to the right */
+}
+
+/* Take out the values list item bullets */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Footer */
