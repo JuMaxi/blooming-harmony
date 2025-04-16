@@ -278,6 +278,11 @@ ul {
     padding: 0;
 }
 
+/* Thank you section */
+#thankyou img{
+   opacity: 0.4; /* Adjusts the opacity of the image */
+}
+
 /* Footer */
 footer {
     background-color: var(--secondary-color);
