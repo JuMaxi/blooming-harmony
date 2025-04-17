@@ -5,8 +5,8 @@
 :root {
     --primary-color: #233819;
     --secondary-color:  #0A3D24;
-    --primary-font: 'Karla', sans-serif;
-    --secondary-font: 'Cormorant Garamond', sans-serif;
+    --primary-font: 'Karla', sans-serif; /* Main font for the website */
+    --secondary-font: 'Cormorant Garamond', serif; /* Font for headings and special text */
     --hover-color: #E9C46A; /* Light yellow color for hover effect on navbar links */
     --color-background: #fdf9f6;
 }
@@ -106,7 +106,8 @@ h3 {
 
 /* Using width 80% to specific sections to make my homepage more dinamic 
     The .container is using 80% width and .container-fluid using 100% */
-section .container {
+section .container,
+article .container {
     max-width: 80%; /* Restrict the width to 80% of the viewport */
     margin: 0 auto; /* Center the container horizontally */
 }
@@ -246,6 +247,20 @@ section .container {
     height: 250px; /* Set a fixed height */
     object-fit: cover; /* Ensures the image is cropped to fit the dimensions without distortion */
     border-radius: 0;
+}
+
+/* Style the section to call the user to access our timeline seasons content */
+#explore-timeline {
+    font-size: large; /* Adjusts the font size */
+}
+
+#explore-timeline a{
+    color: var(--primary-color); /* Adjusts the color of the text */
+    font-weight: bolder; /* Makes the text bolder */
+}
+
+#explore-timeline img {
+    opacity: 0.4; /* Adjusts the opacity of the image */
 }
 
 /* Increase the size of the seasons card when hovered */
