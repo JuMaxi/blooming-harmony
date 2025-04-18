@@ -279,7 +279,7 @@ z-index: 1; /* Makes sure it appears above others if overlapping */
 }
 /* Finish seasons hmtl */
 
-/* Wildliofe section */
+/* Wildlife section */
 
 .wildlife-card a{
     text-decoration: none; /* Removes underline from links */
@@ -298,6 +298,27 @@ z-index: 1; /* Makes sure it appears above others if overlapping */
 .wildlife-card img:hover {
     transform: scale(1.1);
 }
+
+/* Organics section */
+
+.organics a{
+    text-decoration: none; /* Removes underline from links */
+}
+.title-organics {
+    background-color: var(--primary-color);
+    color: white;
+    width: fit-content;
+    text-decoration: none;
+}
+
+/* Create a hover zoom-in effect (like the image is coming closer) 
+.organics img {
+    transition: transform 0.4s ease;
+}
+.organics-card img:hover {
+    transform: scale(1.1);
+} */
+
 /* About Us section */
 
 #about {
