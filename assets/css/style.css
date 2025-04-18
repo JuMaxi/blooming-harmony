@@ -291,6 +291,10 @@ z-index: 1; /* Makes sure it appears above others if overlapping */
     text-decoration: none;
 }
 
+.title-wildlife:hover {
+    color: var(--hover-color);
+}
+
 /* Create a hover zoom-in effect (like the image is coming closer) */
 .wildlife-card img {
     transition: transform 0.4s ease;
@@ -301,7 +305,7 @@ z-index: 1; /* Makes sure it appears above others if overlapping */
 
 /* Organics section */
 
-.organics a{
+.organics a {
     text-decoration: none; /* Removes underline from links */
 }
 .title-organics {
@@ -311,13 +315,17 @@ z-index: 1; /* Makes sure it appears above others if overlapping */
     text-decoration: none;
 }
 
-/* Create a hover zoom-in effect (like the image is coming closer) 
-.organics img {
+.title-organics:hover {
+    color: var(--hover-color);
+}
+
+/* Create a hover zoom-in effect (like the image is coming closer) */
+.organics a > img {
     transition: transform 0.4s ease;
 }
-.organics-card img:hover {
+.organics a > img:hover {
     transform: scale(1.1);
-} */
+}
 
 /* About Us section */
 
