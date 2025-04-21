@@ -396,12 +396,10 @@ z-index: 1; /* Makes sure it appears above others if overlapping */
     transform: scale(1.1);
 }
 
-
-
 /* About Us section */
 
 #about {
-    background-image: url("../images/about-background.png");
+    background-image: url("../images/mascote.png");
     background-repeat: no-repeat;
     background-color: rgba(255,255,255,0.9); /* Light background color */
     background-blend-mode: lighten; /* Blends the image with the background color, brings opacity to the image */
