@@ -327,6 +327,29 @@ z-index: 1; /* Makes sure it appears above others if overlapping */
     transform: scale(1.1);
 }
 
+/* Welcome section */
+
+.welcome a {
+    text-decoration: none; /* Removes underline from links */
+}
+.title-welcome {
+    background-color: var(--primary-color);
+    color: white;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.title-welcome:hover {
+    color: var(--hover-color);
+}
+
+/* Create a hover zoom-in effect (like the image is coming closer) */
+.welcome a > img {
+    transition: transform 0.4s ease;
+}
+.welcome a > img:hover {
+    transform: scale(1.1);
+}
 /* About Us section */
 
 #about {
