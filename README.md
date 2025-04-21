@@ -1,12 +1,5 @@
 # Blooming-harmony
-**This is a work in progress. While the homepage content and style are mostly complete, there are areas that need improvement:**
 
-- **Navbar links**: Currently non-functional and need to be fixed.  
-- **Buttons**: Require proper styling to align with the overall design.  
-- **Footer**: Yet to be completed and needs attention.  
-- **Font sizes**: Require adjustments for better readability and consistency.  
-
-Additionally, the README is still under development. Once finalized, it will include **screenshots** showcasing the project’s progress and features.
 ---
 ## Project Goals
 - Create an **informative and user-friendly website** focused on sustainable gardening.  
@@ -153,7 +146,6 @@ The visual design of this website is intentionally created to reflect the heart 
 ### Color Palette
 
 - **Green tones** are the foundation of the palette, symbolizing **growth, renewal, and nature**. Green invites users into a calm, earthy space and reinforces the idea of living in balance with the natural world.
-- **Brown tones** echo **soil, wood, and earthiness**, grounding the design and reminding visitors of the garden’s natural cycle.
 - **White** is used for **clarity and readability**, creating clean spaces between content and keeping the overall experience light, breathable, and uncluttered.
 - **Colorful images** of flowers, vegetables, wildlife, and seasonal landscapes bring life and joy to the site. These images reflect the diversity and beauty of nature and remind users of the **rewarding outcomes of sustainable gardening**.
 
@@ -180,11 +172,16 @@ The design helps communicate that **sustainability isn’t about restriction it�
 #### **Header**
 - Logo and Website Name  +  Search Bar  
 - Navigation Menu:
+  - **Home** 
   - **Gardening** – General sustainable gardening topics (composting, soilt health, pest control...)
-  - **Seasons** – Eco-friendly planting for each season  
-  - **Organics** – Growing organic fruits, vegetables, and herbs  
   - **Wildlife** – Creating a garden for pollinators, birds, foxes, and squirrels  
-  - **Sustainability** – Water conservation, permaculture, reducing garden waste  
+  - **Seasons** – Eco-friendly planting for each season
+    - Has aditional content, that is a timeline that aims help the user/gardener plann their garden over the year.
+  - **Organics** – Growing organic fruits, vegetables, and herbs  
+  - **Sustainability** – Water conservation, permaculture, reducing garden waste
+  **Devices with less than 992px, the navigation menu + search bar, are converted in a toggle button**
+  - Once the user clicks a navigation link, is directed to the a page that display our articles that are relevant image + title + short description. 
+  - Clicking on the image or title, takes the user to the article page.
 
 
 #### **Hero Section**
@@ -192,6 +189,8 @@ The design helps communicate that **sustainability isn’t about restriction it�
 - Headline  
 - Subheading  
 - Button: **Read More**
+- The button above directs the user to a page with a text about sustainable gardening and its importance and displays relevant images with a title that corresponds 
+to our navigation menu.
 
 #### **Introduction Section**
 - A brief paragraph explaining why sustainable gardening matters  
@@ -199,14 +198,18 @@ The design helps communicate that **sustainability isn’t about restriction it�
 - Button: **Learn More**
 
 #### **Content Section**
-- Featured articles in multiple layouts:
-  - Horizontal layout: Image + brief text + button to article  
-  - Other layout styles: Image + brief text + button  
+- A quote with inspiring message about sustainability
+- A image + text about wildlife and its importance with a call to action button, that directs the user to an article
+- Three different images, one alongside other, with text over it and call to action button, that directs the user to an article
+- A image + carousel with four images (the seasons) with a call to action button to explore seasonal advices
+- Four cards with image, title, and a descripition, about general sustainable gardening topics with a call to action button, that directs the user to an article
 
 #### **Footer**
 - About the website (link to a dedicated page)  
-- Contact details (displayed in the footer)  
-- Social media icons linking to profiles  
+- Contact details (that directs the user to a form page)  
+- Social media icons linking to profiles
+- Sign up to newsletter (input + subscribe button)
+- A small image, our logo, that has a link to the home page  
 
 ---
 
@@ -217,20 +220,55 @@ When a user clicks a navigation menu item:
 - Redirects to an article overview page
 - Displays:
   - Featured image  
+  - Title
   - Short description of related articles  
-  - **Read More** button  
+  - The image and the title, are links that directs the user to the content
 
-Upon clicking **Read More**:
+Upon clicking **Image or Title**:
 
 - Redirects to a detailed article page
 - Includes:
   - Text content  
-  - Multiple images (in various layouts)  
+  - Multiple images
   - Full descriptions  
 
 ---
 
 ## Additional Pages
 
-- **About Page:** Background info on the website and its creators  
-- **Contact Page:** Form or email contact for inquiries  
+- **About Page:** Brief description about us, our Mission, our Vision and our Values. A small image as background that is our mascote (a bee)
+- **Contact Page:** Form or for inquiries. All field are required. Once the user submits the form, is directed to a thank you message, that brings a warm message and our mascote.
+
+### Technologies
+This project was developed using HTML, CSS and Bootstrap. 
+
+#### HTML and CSS
+I aimed to use semantic HTML tags wherever I identified it was appropriate, to ensure better structure and accessibility in my code.
+I also added comments throughout to remind myself later of the reasons behind certain choices, whether it was using specific classes, 
+applying particular styles, or making layout decisions.
+I took the same approach with my CSS, creating custom class names that clearly reflected their purpose. 
+I added comments, organised the code into sections, and structured it by hierarchy to keep everything readable and easy to maintain.
+When I wasn’t sure how to use certain CSS or HTML elements, I often referred to the W3Schools documentation for guidance.
+
+#### Bootstrap use
+I made sure to carefully read the documentation whenever I wasn’t certain about how a Bootstrap feature worked or how it was affecting my code.
+
+Before starting the project, I spent a good amount of time learning about Bootstrap’s breakpoints, which proved essential for building 
+a responsive layout across different screen sizes.
+
+My overall conclusion is that Bootstrap is a powerful tool for front-end development. But, it’s important to work closely with 
+the documentation. There are so many features, and it’s impossible to learn everything all at once.
+
+I also found that relying solely on Bootstrap classes can limit design flexibility. While they help make a site functional quickly,
+adding my own custom CSS allowed me to achieve a more personalised and satisfying result when Bootstrap alone didn’t meet my design goals.
+
+### AI use
+I used AI in this project as a tool to optimise repetitive tasks, just as we learned in our lessons. 
+For most of the main content sections, I created a general structure using <section> and nested divs with Bootstrap classes like container, row, and col.
+Then, I wrote specific prompts and asked AI to generate the content I needed. Once I received the generated content, I would adjust it to fit my needs, 
+for example, changing Bootstrap breakpoints for different screen sizes or applying custom styles to better suit my theme and design.
+Whenever I encountered a Bootstrap class I didn’t understand, I asked the AI to explain its purpose. 
+Often, I realised that some classes weren’t necessary for what I was building, so I removed or replaced them accordingly.
+Not everything the AI generated worked exactly as expected, so I often did additional research to solve problems and achieve the results I was aiming for.
+Although I used AI to help create the general content of my project, I made sure to read through everything carefully and modified anything I didn’t agree with or found unsuitable.
+My overall conclusion is that AI is a powerful tool, especially for generating ideas and speeding up repetitive tasks, but without a clear understanding of the code it produces, you won’t be able to troubleshoot or write functional code on your own.
