@@ -350,6 +350,30 @@ z-index: 1; /* Makes sure it appears above others if overlapping */
 .welcome a > img:hover {
     transform: scale(1.1);
 }
+
+/* Gardening section */
+.gardening a {
+    text-decoration: none; /* Removes underline from links */
+}
+.title-gardening {
+    background-color: var(--primary-color);
+    color: white;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.title-gardening:hover {
+    color: var(--hover-color);
+}
+
+/* Create a hover zoom-in effect (like the image is coming closer) */
+.gardening a > img {
+    transition: transform 0.4s ease;
+}
+.gardening a > img:hover {
+    transform: scale(1.1);
+}
+
 /* About Us section */
 
 #about {
