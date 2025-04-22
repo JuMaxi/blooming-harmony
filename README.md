@@ -1,6 +1,8 @@
 # Blooming-harmony
 
-## 📑 Table of Contents
+Look at my webpage by clicking here: [Blooming-Harmony](https://jumaxi.github.io/blooming-harmony/)
+
+## Table of Contents
 
 - [Project Goals](#project-goals)
 - [Why this subject?](#why-this-subject)
@@ -19,13 +21,13 @@
   - [Color Palette](#color-palette)
   - [Imagery & Themes](#imagery--themes)
   - [Emotional Message](#emotional-message)
-- [🏡 Homepage](#-homepage)
+- [Homepage](#homepage)
   - [Header](#header)
   - [Hero Section](#hero-section)
   - [Introduction Section](#introduction-section)
   - [Content Section](#content-section)
   - [Footer](#footer)
-- [📄 Article Page](#-article-page)
+- [Article Page](#article-page)
 - [Additional Pages](#additional-pages)
   - [About Us Page](#about-us-page)
   - [Contact Us Page](#contact-us-page)
@@ -42,7 +44,15 @@
   - [Logo Placement](#logo-placement)
   - [Width on Small Devices](#width-on-small-devices)
   - [Content](#content)
----
+- [Screenshots](#screenshots)
+  - [Homepage](#homepage-screenshots)
+  - [Navbar link](#navbar-link)
+  - [Article](#article)
+  - [Timeline](#timeline)
+  - [About Us](#about-us)
+  - [Contact Us](#contact-us)
+  - [Thank you message](#thank-you-message)
+
 ## Project Goals
 - Create an **informative and user-friendly website** focused on sustainable gardening.  
 - Promote **eco-friendly gardening practices** through articles, images, and seasonal guides.  
@@ -360,3 +370,140 @@ Gardening and sustainability is a theme I am truly passionate about.
 If time allowed, I would love to create all of my content personally, rather than relying on AI to generate it for me.
 
 
+## Screenshots
+For readability, I’ll display only the 1400px version of the image below. But, you can view my responsive 
+webpages at different screen sizes — 320px, 576px, 768px, 992px, 1200px, and 1400px, by clicking the corresponding links. Just click and explore!
+
+### Homepage screenshots
+[Homepage-320px](assets/images/screenshots/homepage-320px.png)
+*This is my homepage displayed in a 320px device*
+
+[Homepage-576px](assets/images/screenshots/homepage-576px.png)
+*This is my homepage displayed in a 576px device*
+
+[Homepage-768px](assets/images/screenshots/homepage-768px.png)
+*This is my homepage displayed in a 768px device*
+
+[Homepage-992px](assets/images/screenshots/homepage-992px.png)
+*This is my homepage displayed in a 992px device*
+
+[Homepage-1200px](assets/images/screenshots/homepage-1200px.png)
+*This is my homepage displayed in a 1200px device*
+
+*This is my homepage displayed in a 1400px device*
+![Homepage-1400px](assets/images/screenshots/homepage-1400px.png)
+
+
+### Navbar link
+[Navbar-link-wildlife-320px](assets/images/screenshots/navbar-wildlife-320px.png)
+*This is my navbar link to wildlife displayed in a 320px device*
+
+[Navbar-link-wildlife-576px](assets/images/screenshots/navbar-wildlife-576px.png)
+*This is my navbar link to wildlife displayed in a 576px device*
+
+[Navbar-link-wildlife-768px](assets/images/screenshots/navbar-wildlife-768px.png)
+*This is my navbar link to wildlife displayed in a 768px device*
+
+[Navbar-link-wildlife-992px](assets/images/screenshots/navbar-wildlife-992px.png)
+*This is my navbar link to wildlife displayed in a 992px device*
+
+[Navbar-link-wildlife-1200px](assets/images/screenshots/navbar-wildlife-1200px.png)
+*This is my navbar link to wildlife displayed in a 1200px device*
+
+*This is my navbar link to wildlife displayed in a 1400px device*
+![Navbar-link-wildlife-1400px](assets/images/screenshots/navbar-wildlife-1400px.png)
+
+### Article
+[Article-320px](assets/images/screenshots/article-320px.png)
+*This is my article page displayed in a 320px device*
+
+[Article-576px](assets/images/screenshots/article-576px.png)
+*This is my article page displayed in a 576px device*
+
+[Article-768px](assets/images/screenshots/article-768px.png)
+*This is my article page displayed in a 768px device*
+
+[Article-992px](assets/images/screenshots/article-992px.png)
+*This is my article page displayed in a 992px device*
+
+[Article-1200px](assets/images/screenshots/article-1200px.png)
+*This is my article page displayed in a 1200px device*
+
+*This is my article page displayed in a 1400px device*
+![Article-1400px](assets/images/screenshots/article-1400px.png)
+
+### Timeline 
+[Timeline-320px](assets/images/screenshots/timeline-320px.png)
+*This is my timeline page displayed in a 320px device*
+
+[Timeline-576px](assets/images/screenshots/timeline-576px.png)
+*This is my timeline page displayed in a 576px device*
+
+[Timeline-768px](assets/images/screenshots/timeline-768px.png)
+*This is my timeline page displayed in a 768px device*
+
+[Timeline-992px](assets/images/screenshots/timeline-992px.png)
+*This is my timeline page displayed in a 992px device*
+
+[Timeline-1200px](assets/images/screenshots/timeline-1200px.png)
+*This is my timeline page displayed in a 1200px device*
+
+*This is my timeline page displayed in a 1400px device*
+![Timeline-1400px](assets/images/screenshots/timeline-1400px.png)
+
+### About Us
+[About-us-320px](assets/images/screenshots/about-us-320px.png)
+*This is my about us page displayed in a 320px device*
+
+[About-us-576px](assets/images/screenshots/about-us-576px.png)
+*This is my about us page displayed in a 576px device*
+
+[About-us-768px](assets/images/screenshots/about-us-768px.png)
+*This is my about us page displayed in a 768px device*
+
+[About-us-992px](assets/images/screenshots/about-us-992px.png)
+*This is my about us page displayed in a 992px device*
+
+[About-us-1200px](assets/images/screenshots/about-us-1200px.png)
+*This is my about us page displayed in a 1200px device*
+
+*This is my about us page displayed in a 1400px device*
+![About-us-1400px](assets/images/screenshots/about-us-1400px.png)
+
+### Contact Us
+[Contact-us-320px](assets/images/screenshots/contact-us-320px.png)
+*This is my contact us page displayed in a 320px device*
+
+[Contact-us-576px](assets/images/screenshots/contact-us-576px.png)
+*This is my contact us page displayed in a 576px device*
+
+[Contact-us-768px](assets/images/screenshots/contact-us-768px.png)
+*This is my contact us page displayed in a 768px device*
+
+[Contact-us-992px](assets/images/screenshots/contact-us-992px.png)
+*This is my contact us page displayed in a 992px device*
+
+[Contact-us-1200px](assets/images/screenshots/contact-us-1200px.png)
+*This is my contact us page displayed in a 1200px device*
+
+*This is my contact us page displayed in a 1400px device*
+![Contact-us-1400px](assets/images/screenshots/contact-us-1400px.png)
+
+### Thank you message
+[Thankyou-320px](assets/images/screenshots/thankyou-320px.png)
+*This is my thankyou page displayed in a 320px device*
+
+[Thankyou-576px](assets/images/screenshots/thankyou-576px.png)
+*This is my thankyou page displayed in a 576px device*
+
+[Thankyou-768px](assets/images/screenshots/thankyou-768px.png)
+*This is my thankyou page displayed in a 768px device*
+
+[Thankyou-992px](assets/images/screenshots/thankyou-992px.png)
+*This is my thankyou page displayed in a 992px device*
+
+[Thankyou-1200px](assets/images/screenshots/thankyou-1200px.png)
+*This is my thankyou page displayed in a 1200px device*
+
+*This is my thankyou page displayed in a 1400px device*
+![Thankyou-1400px](assets/images/screenshots/thankyou-1400px.png)
