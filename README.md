@@ -1,12 +1,53 @@
 # Blooming-harmony
 
+## 📑 Table of Contents
+
+- [Project Goals](#project-goals)
+- [Why this subject?](#why-this-subject)
+- [Target Audience](#target-audience)
+- [User Goals](#user-goals)
+- [User Experience (UX)](#user-experience-ux)
+- [User Stories & Acceptance Criteria](#user-stories--acceptance-criteria)
+  - [User Story 1: Learn Sustainable Gardening Basics](#user-story-1-learn-sustainable-gardening-basics)
+  - [User Story 2: Discover Seasonal Gardening Tips](#user-story-2-discover-seasonal-gardening-tips)
+  - [User Story 3: Support Wildlife in My Garden](#user-story-3-support-wildlife-in-my-garden)
+  - [User Story 4: Chemical-free Controls to Plant Diseases](#user-story-4-chemical-free-controls-to-plant-diseases)
+  - [User Story 5: Grow Plants Organically](#user-story-5-grow-plants-organically)
+  - [User Story 6: Navigate the Site Easily](#user-story-6-navigate-the-site-easily)
+  - [User Story 7: Stay Connected](#user-story-7-stay-connected)
+- [Design Justification](#design-justification)
+  - [Color Palette](#color-palette)
+  - [Imagery & Themes](#imagery--themes)
+  - [Emotional Message](#emotional-message)
+- [🏡 Homepage](#-homepage)
+  - [Header](#header)
+  - [Hero Section](#hero-section)
+  - [Introduction Section](#introduction-section)
+  - [Content Section](#content-section)
+  - [Footer](#footer)
+- [📄 Article Page](#-article-page)
+- [Additional Pages](#additional-pages)
+  - [About Us Page](#about-us-page)
+  - [Contact Us Page](#contact-us-page)
+- [Technologies](#technologies)
+  - [HTML and CSS](#html-and-css)
+  - [Bootstrap use](#bootstrap-use)
+  - [AI use](#ai-use)
+- [Sources](#sources)
+  - [Images](#images)
+  - [Timeline seasons](#timeline-seasons)
+- [Limitations](#limitations)
+  - [Page Layout Planning (Frames)](#page-layout-planning-frames)
+  - [Image Sizing](#image-sizing)
+  - [Logo Placement](#logo-placement)
+  - [Width on Small Devices](#width-on-small-devices)
+  - [Content](#content)
 ---
 ## Project Goals
 - Create an **informative and user-friendly website** focused on sustainable gardening.  
 - Promote **eco-friendly gardening practices** through articles, images, and seasonal guides.  
 - Encourage visitors to **adopt organic, wildlife-friendly methods** in their own gardens.  
 - Build an online space that inspires a **community of conscious gardeners** to share and grow together.  
----
 
 ### Why this subject?
 
@@ -18,14 +59,12 @@ Now, as I build my own garden, I continue to learn every day. I'm discovering na
 
 Through this website, I hope to share what I'm learning and encourage others to join the movement toward more **sustainable, wildlife-friendly gardening**. I truly believe that the way we garden today can help build a better, greener future for our communities, our climate, and the generations to come.
 
----
 
 ### Target Audience
 - Gardeners interested in sustainable and organic practices  
 - UK residents looking for climate-friendly gardening tips  
 - People who want to support wildlife in their gardens  
 
----
 
 ## User Goals
 - Learn the **basics of sustainable and organic gardening** in a clear and accessible way.  
@@ -35,7 +74,6 @@ Through this website, I hope to share what I'm learning and encourage others to 
 - Access **simple, actionable tips** for composting, water-saving, and soil care.  
 - Be inspired by someone with real experience who is still learning and growing.  
 
----
 
 ## User Experience (UX)
 - **Clean, calming design** that reflects the natural and sustainable theme.  
@@ -45,9 +83,8 @@ Through this website, I hope to share what I'm learning and encourage others to 
 - **Consistent layout** across pages to create a familiar and welcoming experience.  
 - **Call-to-action buttons** (like “Read More” and “Learn More”) that gently guide users through the content journey.  
 
-## User Stories & Acceptance Criteria
 
----
+## User Stories & Acceptance Criteria
 
 ### User Story 1: Learn Sustainable Gardening Basics
 
@@ -138,7 +175,7 @@ so that I can continue learning without missing anything.
 - Homepage and article pages feature highlighted or “new” content.
 - Social media links are available and functional in the footer.
 
----
+
 ## Design Justification
 
 The visual design of this website is intentionally created to reflect the heart of its message: that **gardening and sustainability can live in harmony with nature, without harming it**. Every color, image, and layout choice supports that core idea.
@@ -165,11 +202,9 @@ The combination of these visual choices aims to **evoke a sense of peace, hope, 
 The design helps communicate that **sustainability isn’t about restriction it’s about reconnection**.
 
 
----
+## Homepage
 
-### 🏡 Homepage
-
-#### **Header**
+### **Header**
 - Logo and Website Name  +  Search Bar  
 - Navigation Menu:
   - **Home** 
@@ -184,7 +219,7 @@ The design helps communicate that **sustainability isn’t about restriction it�
   - Clicking on the image or title, takes the user to the article page.
 
 
-#### **Hero Section**
+### **Hero Section**
 - Large background image  
 - Headline  
 - Subheading  
@@ -192,28 +227,32 @@ The design helps communicate that **sustainability isn’t about restriction it�
 - The button above directs the user to a page with a text about sustainable gardening and its importance and displays relevant images with a title that corresponds 
 to our navigation menu.
 
-#### **Introduction Section**
+
+### **Introduction Section**
 - A brief paragraph explaining why sustainable gardening matters  
 - Medium image alongside the text  
 - Button: **Learn More**
 
-#### **Content Section**
+
+### **Content Section**
 - A quote with inspiring message about sustainability
 - A image + text about wildlife and its importance with a call to action button, that directs the user to an article
 - Three different images, one alongside other, with text over it and call to action button, that directs the user to an article
 - A image + carousel with four images (the seasons) with a call to action button to explore seasonal advices
 - Four cards with image, title, and a descripition, about general sustainable gardening topics with a call to action button, that directs the user to an article
 
-#### **Footer**
+
+### **Footer**
 - About the website (link to a dedicated page)  
 - Contact details (that directs the user to a form page)  
 - Social media icons linking to profiles
 - Sign up to newsletter (input + subscribe button)
 - A small image, our logo, that has a link to the home page  
 
----
 
-### 📄 Article Page
+## Secondary pages 
+
+### Article Page
 
 When a user clicks a navigation menu item:
 
@@ -232,35 +271,31 @@ Upon clicking **Image or Title**:
   - Multiple images
   - Full descriptions  
 
----
 
-## Additional Pages
+- **About Us Page:** Brief description about us, our Mission, our Vision and our Values. A small image as background that is our mascote (a bee)
+- **Contact Us Page:** Form or for inquiries. All field are required. Once the user submits the form, is directed to a thank you message, that brings a warm message and our mascote.
 
-- **About Page:** Brief description about us, our Mission, our Vision and our Values. A small image as background that is our mascote (a bee)
-- **Contact Page:** Form or for inquiries. All field are required. Once the user submits the form, is directed to a thank you message, that brings a warm message and our mascote.
-
-### Technologies
+## Technologies
 This project was developed using HTML, CSS and Bootstrap. 
 
-#### HTML and CSS
+### HTML and CSS
 I aimed to use semantic HTML tags wherever I identified it was appropriate, to ensure better structure and accessibility in my code.
 I also added comments throughout to remind myself later of the reasons behind certain choices, whether it was using specific classes, 
 applying particular styles, or making layout decisions.
 I took the same approach with my CSS, creating custom class names that clearly reflected their purpose. 
 I added comments, organised the code into sections, and structured it by hierarchy to keep everything readable and easy to maintain.
-When I wasn’t sure how to use certain CSS or HTML elements, I often referred to the W3Schools documentation for guidance.
+When I wasn’t sure how to use certain CSS or HTML elements, I often referred to the [W3 Schools](https://www.w3schools.com/) documentation for guidance.
 
-#### Bootstrap use
+
+### Bootstrap use
 I made sure to carefully read the documentation whenever I wasn’t certain about how a Bootstrap feature worked or how it was affecting my code.
-
 Before starting the project, I spent a good amount of time learning about Bootstrap’s breakpoints, which proved essential for building 
 a responsive layout across different screen sizes.
-
 My overall conclusion is that Bootstrap is a powerful tool for front-end development. But, it’s important to work closely with 
 the documentation. There are so many features, and it’s impossible to learn everything all at once.
-
 I also found that relying solely on Bootstrap classes can limit design flexibility. While they help make a site functional quickly,
 adding my own custom CSS allowed me to achieve a more personalised and satisfying result when Bootstrap alone didn’t meet my design goals.
+
 
 ### AI use
 I used AI in this project as a tool to optimise repetitive tasks, just as we learned in our lessons. 
@@ -271,4 +306,57 @@ Whenever I encountered a Bootstrap class I didn’t understand, I asked the AI t
 Often, I realised that some classes weren’t necessary for what I was building, so I removed or replaced them accordingly.
 Not everything the AI generated worked exactly as expected, so I often did additional research to solve problems and achieve the results I was aiming for.
 Although I used AI to help create the general content of my project, I made sure to read through everything carefully and modified anything I didn’t agree with or found unsuitable.
+Also, use these tools to generate my user stories and changed it as my need.
 My overall conclusion is that AI is a powerful tool, especially for generating ideas and speeding up repetitive tasks, but without a clear understanding of the code it produces, you won’t be able to troubleshoot or write functional code on your own.
+The AI tools I used were [Copilot](https://copilot.microsoft.com/) and [ChatGPT](https://www.openai.com).
+
+
+## Sources
+
+### Images
+
+This project uses free images sourced from [Pixabay](https://pixabay.com/).
+One image was also found via [Google images](https://www.google.co.uk/search?q=wildflowers&sca_esv=bea16ca33decddb6&udm=2&sxsrf=AHTn8zoRGszTt5vxmTKDCbo6PbcSoWtdSg:1745307740646&source=lnt&tbs=sur:cl&sa=X&ved=2ahUKEwjIvJ7_keuMAxUQWEEAHc9EJdcQpwV6BAgDECA&biw=1440&bih=812&dpr=2), filtered by Creative Commons licenses.
+The logo and favicon were AI-generated using [ChatGPT](https://www.openai.com).
+I also experimented with Copilot for image generation, but I wasn’t satisfied with the results and decided not to use them.
+Since this project focuses on plants, nature, and the outdoors, AI-generated visuals often felt too artificial and didn’t quite fit the natural aesthetic I was aiming for.
+
+
+### Timeline seasons
+Since the beginning of this project, I thought about having a dedicated page for a seasonal timeline. The goal was to share monthly 
+tips for sustainable gardening. It just made sense to me after all, as gardeners, we constantly adapt our tasks to the seasons to get the most out of each one.
+At first, I didn’t know how to build a timeline using Bootstrap or even CSS. I chose Bootstrap because it made it easier to adjust the responsiveness to fit my design.
+Rather than asking AI to generate the code, I spent time researching different timeline layouts built with Bootstrap. I selected one that matched the style and purpose I had in mind.
+I found the HTML structure for this timeline on [Codeply](https://www.codeply.com/p/GSinLfFXIJ). 
+Before adapting it, I took the time to understand how it worked. That understanding helped me to make the changes and customizations I needed. 
+I also included a comment above the code in my timeline.html file, explaining the source and giving proper credit.
+In my timeline, I wanted to apply some transparency to the background of the month cards. At first, I tried using the CSS opacity property,
+but it affected the entire card—including the text and other content—which wasn’t what I wanted. After doing some research on 
+[Stack Overflow](https://stackoverflow.com/questions), I found the solution I needed.
+
+## Limitations
+There are a few things I wish I had planned better in this first project. Lessons I've definitely learned and will take with me into the next one.
+
+### Page Layout Planning (Frames)
+Before I started coding, I sketched the layout for my homepage in my notebook. As simple as that might sound, it worked really well, it gave me a clear vision of what I wanted to achieve.
+However, I didn’t do the same for the other pages, and that made things more complicated. I spent too much time thinking, rethinking, and making changes while already writing the code. In the end, I felt like those pages didn’t reach their full potential.
+So, the lesson here is: next time, I’ll plan and sketch all the pages beforehand. I also want to learn a proper tool for this, because even though my notebook sketch helped me, it's not very aesthetic or easy for others to understand.
+
+### Image Sizing
+I also learned the importance of understanding the actual image sizes needed for the site. There’s no reason to use a large image that takes time to load if it's going to appear small on the screen.
+I did reduce some image sizes, but I wasn’t confident about how far I could go without affecting the design. Next time, I’ll spend more time figuring this out properly to improve performance.
+
+### Logo Placement
+I originally used my logo only in the footer, but later realized it would be better to also include it in the header navbar—linked like a brand. I tried implementing it toward the end of the project but couldn’t get it to work in time.
+Next time, I’ll plan this earlier and make sure the branding is consistent throughout the site.
+
+### Width on Small Devices
+My website is fully responsive. I tested every page using all Bootstrap breakpoints. So, if anything doesn’t look right, it’s currently beyond my knowledge.
+That said, during final testing, I noticed that on smaller devices, the container class (which I set to 80% width) could look better if it were a bit wider.
+The default margins felt too large. In the future, I might explore reducing those margins or using a different class to improve the visual balance.
+
+### Content
+Gardening and sustainability is a theme I am truly passionate about. 
+If time allowed, I would love to create all of my content personally, rather than relying on AI to generate it for me.
+
+
