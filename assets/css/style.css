@@ -88,6 +88,7 @@ form input[type="search"] {
 p {
     font-size: 18px;
 }
+
 /* Headings */
 h1,
 h2,
@@ -98,7 +99,7 @@ h3 {
 
 /* Hero section */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/hero.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/homepage/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -125,7 +126,7 @@ article .container {
     background-color: var(--color-background);
 }
 
-/* First introductory section */
+/* Section to general guidance to garden */
 .starting,
 .pollinators,
 .weeds {
@@ -142,18 +143,18 @@ article .container {
 }
 
 .starting {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/getting-started.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/homepage/getting-started.jpg");
 }
 
 .pollinators {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/bee.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/homepage/bee.jpg");
 }
 
 .weeds {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/dandelion.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/homepage/dandelion.jpg");
 }
 
-/* Carousel */
+/* Carousel seasons homepage */
 .carousel-inner img {
     height: 600px; /* Set a fixed height */
     width: 100%; /* Ensure the image spans the full width of the carousel */
@@ -162,7 +163,7 @@ article .container {
 
 /* A background image to the message about seasons */
 #seasons .calendar {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/calendar.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/homepage/calendar.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; /* Ensures the image is centered */
