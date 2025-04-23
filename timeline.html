@@ -113,25 +113,44 @@
 
     <!-- Section to the seasons timeline -->
     <section class="my-2"> <!-- margin in the vertical way Y -->
+
         <div class="container py-4"> <!-- padding in the vertical way Y-->
+
             <!-- timeline item January -->
+            <!-- This row is holding all the content for the first card, it means it has the spaces in the 
+                left side + the middle border and its spaces + the middle badge + the card and all its content -->
+
             <div class="row g-0"> <!-- class g-0 is used to remove all the gutter (spacing) between columns inside a row-->
-                <div class="col-sm"><!--spacer--></div>
+
+                <!-- All this div content is just displayed in devices 768px and up -->
+                <div class="col-sm"></div><!-- This col is the left space - the bigger one that is aligned with the card it is displayed just in devices with 768px and up -->
+
                 <!-- timeline item 1 center dot -->
+                <!-- This col is the middle space - the middle one that is aligned with the left big space and the card and it is displayed just in devices with 768px and up -->
                 <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-                    <!-- It creates a empty row to give space when starting the first card in the timeline -->
+
+                    <!-- It creates a empty row to give space when starting the first card in the timeline and it is setting this row with 50% height of its parent -->
                     <div class="row h-50"></div>
-                    <!-- It uses a icon to "draw" the small circles that are between the vertical drawed line like a "o" -->
+
+                    <!-- It uses a icon to "draw" the small circles that are above the vertical drawed border (inside the col parent) like a "o" -->
+                    <!-- The icon is drawed with the boostrap classes badge + rounded-pill and the bf-info just brings the color blue to this icon background -->
+                    <!-- The &nbsp used is a non-breaking space, it means that a space that will not break into a new line -->
                     <h5 class="m-2">
                         <span class="badge rounded-pill bg-info">&nbsp;</span>
                     </h5>
-                    <!-- It creates a new row and inside the divs is using a icon to "draw" the vertical line between the cards like card | card -->
+
+                    <!-- It creates a new row setting max height of 50% of its parent-->
+                    <!-- It works similarly to the first row h-50, with the difference that is it at the end of the middle column
+                        and is is not empty -->
+                    <!-- Also it is holding a column where there is a border with the same style of the badge-->
                     <div class="row h-50">
+                        <!-- It is the vertical border that startes below the badge and goes through the end of the parent (col-sm-2) -->
                         <div class="col border-4 border-info border-end">&nbsp;</div>
                         <div class="col">&nbsp;</div>
                     </div>
                 </div>
-                <!-- timeline item 1 event content -->
+
+                <!-- timeline item 1 event content - Our month card -->
                 <div class="col-md py-3">
                     <a href="#read-more" class="text-decoration-none text-dark">
                         <div class="card winter-card rounded-0">
