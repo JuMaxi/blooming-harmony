@@ -5,7 +5,7 @@
 :root {
     --primary-color: #233819;
     --secondary-color:  #0A3D24;
-    --primary-font: 'Karla', sans-serif; /* Main font for the website */
+    --primary-font: 'Karla', Arial, sans-serif; /* Main font for the website and Arial as a fallback font */
     --secondary-font: 'Cormorant Garamond', serif; /* Font for headings and special text */
     --hover-color: #E9C46A; /* Light yellow color for hover effect on navbar links */
     --color-background: #fdf9f6;
@@ -77,11 +77,12 @@ form input[type="search"] {
 /* Change the color of the background search button to green */
 .search {
     background-color: var(--secondary-color);
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .search:hover {
     background-color: green;
-    border: 1px solid green;
 }
 
 /* style the font size to the paragraphs */
@@ -89,12 +90,17 @@ p {
     font-size: 18px;
 }
 
-/* Headings */
+/* Headings and navbar-brand */
 h1,
 h2,
-h3 {
+h3,
+.navbar-brand {
     font-family: var(--secondary-font);
-    
+}
+
+/* Increase navbar-brand font size */
+.navbar-brand {
+    font-size: 2rem;
 }
 
 /* Hero section */
@@ -117,7 +123,7 @@ article .container {
     margin: 0 auto; /* Center the container horizontally */
 }
 
-/* Quote section */
+/* Quote div */
 .blockquote p {
     color: #4F6F42;
 }

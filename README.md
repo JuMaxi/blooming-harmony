@@ -44,6 +44,10 @@ Look at my webpage by clicking here: [Blooming-Harmony](https://jumaxi.github.io
   - [Logo Placement](#logo-placement)
   - [Width on Small Devices](#width-on-small-devices)
   - [Content](#content)
+- [Validations](#validations)
+  - [CSS](#css)
+  - [HTML](#html)
+  - [Performance-Accessibility-BestPractices](#performance-accessibility-bestpractices)
 - [Screenshots](#screenshots)
   - [Homepage](#homepage-screenshots)
   - [Navbar link](#navbar-link)
@@ -368,6 +372,20 @@ The default margins felt too large. In the future, I might explore reducing thos
 ### Content
 Gardening and sustainability is a theme I am truly passionate about. 
 If time allowed, I would love to create all of my content personally, rather than relying on AI to generate it for me.
+
+## Validations
+
+### CSS
+For validating my style sheet I used a validator from [W3C Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input).
+The validation returned no errors, only a few warnings. You can see the results of the validation below. 
+![CSS-Validation](assets/images/validations/css-validation-w3.png)
+
+### HTML
+I also validated each of my HTML files using the [W3C Validation Service](https://validator.w3.org/#validate_by_input).
+Below is the screenshot of the validation result for the index.html (homepage). While only this result is shown, I tested all other HTML pages and received the same outcome.
+![HTMl-Validation](assets/images/validations/html-validation-w3.png)
+
+### Performance-Accessibility-BestPractices
 
 
 ## Screenshots
