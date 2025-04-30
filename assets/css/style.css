@@ -130,6 +130,7 @@ article .container {
 
 .blockquote-footer {
     background-color: var(--color-background);
+    color: var(--primary-color);
 }
 
 /* Section to general guidance to garden */
