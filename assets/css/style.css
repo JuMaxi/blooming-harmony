@@ -227,23 +227,23 @@ article .container {
     border:white;
 }
 .winter-card {
-    background-image: url(../images/ice.png);
+    background-image: url(../images/seasons/timeline/ice.png);
     background-color: rgba(255,255,255,0.6); /* Light background color */
     background-blend-mode: lighten; /* Blends the image with the background color */
 }
 
 .spring-card {
-    background-image: url(../images/flowers.png);
+    background-image: url(../images/seasons/timeline/flowers.png);
 }
 
 .summer-card {
-    background-image: url(../images/sun.png);
+    background-image: url(../images/seasons/timeline/sun.png);
     background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .autumn-card {
-    background-image: url(../images/leaves.png);
+    background-image: url(../images/seasons/timeline/leaves.png);
     background-color: rgba(255,255,255,0.8);
     background-blend-mode: lighten;
 }
