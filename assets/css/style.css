@@ -77,8 +77,6 @@ form input[type="search"] {
 /* Change the color of the background search button to green */
 .search {
     background-color: var(--secondary-color);
-    padding-top: 1px;
-    padding-bottom: 1px;
 }
 
 .search:hover {
