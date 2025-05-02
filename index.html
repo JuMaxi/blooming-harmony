@@ -37,8 +37,8 @@
                     </a>
                     <!-- Search bar for large screens (992px and up) -->
                     <form class="d-none d-lg-flex search" role="search">
-                        <input class="form-control rounded-0" type="search" placeholder="Search..." aria-label="Search">
-                        <button class="btn rounded-0 search" type="submit"><i class="fa fa-search text-white"></i></button>
+                        <input class="form-control rounded-0" id="search-bar" type="search" placeholder="Search..." aria-label="Search">
+                        <button class="btn rounded-0 search" type="submit" aria-label="button-search"><i class="fa fa-search text-white"></i></button>
                     </form>
 
                     <!-- Toggler button for small screens -->
@@ -54,7 +54,7 @@
                             <!-- Search bar inside the collapsible menu devices less than 992px -->
                             <li class="nav-item d-lg-none">
                                 <form class="d-flex mt-3 search" role="search">
-                                    <input class="form-control rounded-0" type="search" placeholder="Search..." aria-label="Search">
+                                    <input class="form-control rounded-0" id="search-bar-toggle" type="search" placeholder="Search..." aria-label="Search">
                                     <button class="btn rounded-0 search" type="submit"><i class="fa fa-search text-white"></i></button>
                                 </form>
                             </li>
@@ -88,7 +88,7 @@
         <div class="container-fluid hero-section text-center">
             <h1 class="display-4">Welcome to Blooming Harmony</h1>
             <p class="lead">Discover the beauty of sustainable gardening and create a haven for wildlife in your own backyard.</p>
-            <a href="welcome.html" class="btn btn-light btn-lg">Read More</a>
+            <a href="welcome.html" class="btn btn-light btn-lg">Learn Sustainable Gardening</a>
         </div>
     </header>
 
@@ -102,7 +102,7 @@
                     <div class="col-lg-6 mb-4">
                         <h2>Sustainable Gardening: A Legacy for Future Generations</h2>
                         <p>Caring for sustainability and wildlife is vital for ensuring a thriving planet for future generations. By living in harmony with nature, we not only preserve the beauty and balance of our environment but also pass on a legacy of responsibility and respect for the earth. Embracing sustainable practices fosters a healthier ecosystem, where plants, animals, and humans coexist and flourish together.</p>
-                        <a href="introduction.html" class="btn btn-success btn-lg">Read More</a>
+                        <a href="introduction.html" class="btn btn-success btn-lg">Learn Sustainable Gardening</a>
                     </div>
                     <!-- Second Column: Responsive Image -->
                     <div class="col-lg-6">
@@ -177,7 +177,7 @@
                     <div class="col-12 col-lg-6 calendar d-flex flex-column justify-content-center align-items-center">
                         <h2>Explore Our Seasonal Advices</h2>
                         <p>Discover the best gardening tips and ideas for every season. From sustainable practices to vibrant blooms, we have it all!</p>
-                        <a href="introduction-seasons.html" class="btn btn-light btn-lg mb-4">Read More</a>
+                        <a href="introduction-seasons.html" class="btn btn-light btn-lg mb-4">Learn Sustainable Gardening</a>
                     </div>
                     <div class="col-12 col-lg-6 px-0">
                         <div id="carouselSeasons" class="carousel slide" data-bs-ride="carousel">
@@ -297,7 +297,7 @@
                 <div class="col-12 col-lg-6 mb-4 text-center mt-lg-4">
                     <h4 class="text-center text-white">Sign up to our Newsletter:</h4>
                     <form class="d-flex flex-column flex-sm-row mt-3" action="subscribeThankYou.html" method="GET">
-                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0 rounded-0" placeholder="Enter your email" required>
+                        <input type="email" id="newsletter" class="form-control me-sm-2 mb-2 mb-sm-0 rounded-0" placeholder="Enter your email" required>
                         <button type="submit" class="btn subscribe rounded-0 text-white">Subscribe</button>
                     </form>
                 </div>

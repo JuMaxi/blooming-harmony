@@ -37,8 +37,8 @@
                     </a>
                     <!-- Search bar for large screens (992px and up) -->
                     <form class="d-none d-lg-flex search" role="search">
-                        <input class="form-control rounded-0" type="search" placeholder="Search..." aria-label="Search">
-                        <button class="btn rounded-0 search" type="submit"><i class="fa fa-search text-white"></i></button>
+                        <input class="form-control rounded-0" type="search" id="search-bar" placeholder="Search..." aria-label="Search">
+                        <button class="btn rounded-0 search" type="submit" aria-label="button-search"><i class="fa fa-search text-white"></i></button>
                     </form>
 
                     <!-- Toggler button for small screens -->
@@ -54,7 +54,7 @@
                             <!-- Search bar inside the collapsible menu devices less than 992px -->
                             <li class="nav-item d-lg-none">
                                 <form class="d-flex mt-3 search" role="search">
-                                    <input class="form-control rounded-0" type="search" placeholder="Search..." aria-label="Search">
+                                    <input class="form-control rounded-0" type="search" id="search-bar-toggle" placeholder="Search..." aria-label="Search">
                                     <button class="btn rounded-0 search" type="submit"><i class="fa fa-search text-white"></i></button>
                                 </form>
                             </li>
@@ -130,10 +130,10 @@
                 </div>
 
                 <!-- Column 1: Newsletter Form -->
-                <div class="col-12 col-lg-6 mb-4 text-center mt-lg-4">
-                    <h4 class="text-center text-white">Sign up to our Newsletter:</h4>
+                <div class="col-12 col-lg-6 mb-4 text-center mt-lg-4 newsletter">
+                    <h3 class="text-center text-white">Sign up to our Newsletter:</h3>
                     <form class="d-flex flex-column flex-sm-row mt-3" action="subscribeThankYou.html" method="GET">
-                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0 rounded-0" placeholder="Enter your email" required>
+                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0 rounded-0" id="newsletter" placeholder="Enter your email" required>
                         <button type="submit" class="btn subscribe rounded-0 text-white">Subscribe</button>
                     </form>
                 </div>

@@ -37,8 +37,8 @@
                     </a>
                     <!-- Search bar for large screens (992px and up) -->
                     <form class="d-none d-lg-flex search" role="search">
-                        <input class="form-control rounded-0" type="search" placeholder="Search..." aria-label="Search">
-                        <button class="btn rounded-0 search" type="submit"><i class="fa fa-search text-white"></i></button>
+                        <input class="form-control rounded-0" type="search" id="search-bar" placeholder="Search..." aria-label="Search">
+                        <button class="btn rounded-0 search" type="submit" aria-label="button-search"><i class="fa fa-search text-white"></i></button>
                     </form>
 
                     <!-- Toggler button for small screens -->
@@ -54,7 +54,7 @@
                             <!-- Search bar inside the collapsible menu devices less than 992px -->
                             <li class="nav-item d-lg-none">
                                 <form class="d-flex mt-3 search" role="search">
-                                    <input class="form-control rounded-0" type="search" placeholder="Search..." aria-label="Search">
+                                    <input class="form-control rounded-0" type="search" id="search-bar-toggle" placeholder="Search..." aria-label="Search">
                                     <button class="btn rounded-0 search" type="submit"><i class="fa fa-search text-white"></i></button>
                                 </form>
                             </li>
@@ -116,22 +116,22 @@
                 <div class="row justify-content-center mb-2">
                     <div class="col-12 col-md-6 col-xl-3 mb-4 organics d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/organics/starting.jpg" class="img-fluid mb-4" alt="Plants in pots, gloves and water can."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-organics justify-content-center">Beginnings</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-organics justify-content-center">Beginnings</h4></a>
                         <p class="text-center">Getting Started with Organic Gardening at Home</p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4 organics d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/organics/soil.jpg" class="img-fluid mb-4" alt="Wet soil with a green plant."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-organics">Soil Care</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-organics">Soil Care</h4></a>
                         <p class="text-center">Building Healthy Soil Naturally</p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4 organics d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/organics/composting.jpg" class="img-fluid mb-4" alt="Person holding compost or soil."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-organics">Compost</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-organics">Compost</h4></a>
                         <p class="text-center">Organic Composting: Turning Waste into Gold</p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4 organics d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/organics/protection.jpg" class="img-fluid mb-4" alt="A garden with a scare crow and plants."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-organics">Pest Control</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-organics">Pest Control</h4></a>
                         <p class="text-center">Natural Pest Control: Protecting Plants without Chemicals</p>
                     </div>
                 </div>
@@ -139,22 +139,22 @@
                 <div class="row justify-content-center mb-2">
                     <div class="col-12 col-md-6 col-xl-3 mb-4 organics d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/organics/companion.jpg" class="img-fluid mb-4" alt="A little boy in a diverse green garden."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-organics">Companion Plants</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-organics">Companion Plants</h4></a>
                         <p class="text-center">Companion Planting for a Thriving Organic Garden</p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4 organics d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/organics/seeds.jpg" class="img-fluid mb-4" alt="A dry plant with seeds."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-organics">Organic Seeds</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-organics">Organic Seeds</h4></a>
                         <p class="text-center">Choosing Organic Seeds and Heirloom Varieties</p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4 organics d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/organics/watering.jpg" class="img-fluid mb-4" alt="Watering a flower."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-organics">Watering</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-organics">Watering</h4></a>
                         <p class="text-center">Watering the Organic Way: Conservation and Care</p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4 organics d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/organics/harvest.jpg" class="img-fluid mb-4" alt="Harvested potatoes in a bag."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-organics">Harvest</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-organics">Harvest</h4></a>
                         <p class="text-center">Harvesting and Enjoying Your Organic Produce</p>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                 <div class="col-12 col-lg-6 mb-4 text-center mt-lg-4">
                     <h4 class="text-center text-white">Sign up to our Newsletter:</h4>
                     <form class="d-flex flex-column flex-sm-row mt-3" action="subscribeThankYou.html" method="GET">
-                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0 rounded-0" placeholder="Enter your email" required>
+                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0 rounded-0" id="newsletter" placeholder="Enter your email" required>
                         <button type="submit" class="btn subscribe rounded-0 text-white">Subscribe</button>
                     </form>
                 </div>

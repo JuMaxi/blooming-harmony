@@ -377,36 +377,8 @@ Gardening and sustainability is a theme I am truly passionate about.
 If time allowed, I would love to create all of my content personally, rather than relying on AI to generate it for me.
 
 ## Validations
-
-### CSS
-For validating my style sheet I used a validator from [W3C Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input).
-The validation returned no errors, only a few warnings. You can see the results of the validation below. 
-![CSS-Validation](assets/images/validations/css-validation-w3.png)
-
-### HTML
-I also validated each of my HTML files using the [W3C Validation Service](https://validator.w3.org/#validate_by_input).
-Below is the screenshot of the validation result for the index.html (homepage). While only this result is shown, I tested all other HTML pages and received the same outcome.
-![HTML-Validation](assets/images/validations/html-validation-w3.png)
-
-**Performance, Accessibility, Best Practices and SEO validations were carried out using the Lighthouse developer tool**
-### Performance
-Performance validation resulted in a score of 74%. While the ideal target is at least 90%,
-the lower score is primarily due to large image files that take longer to load. I discuss this limitation further in my Limitation section,
-as it highlights an important area for improvement in future projects.
-
-### Accessibility
-Accessibility validation resulted in a score of 100%.
-
-### Best Practices
-Best Practices validation resulted in a score of 100%.
-
-### SEO
-SEO validation returned a score of 91%. It did not achieve 100% due to three buttons labeled with generic text such as “Read More.”
-I chose not to modify them, as I was concerned that longer text might affect the visual design. However, this is something I recognize
-as an area to improve in future projects, balancing accessibility and SEO with design considerations.
-
-The image below shows the result discussed for the homepage only, but the overall results for the other pages were similar, so I have chosen not to include their analyses here.
-![Lighthouse-Validation](assets/images/validations/lighthouse-validation-w3.png)
+To see testing and validation to this project, please, follow the link below:
+[VALIDATIONS.md](Validations)
 
 ## Screenshots
 For readability, I’ll display only the 1400px version of the image below. But, you can view my responsive 

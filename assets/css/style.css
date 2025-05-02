@@ -96,6 +96,16 @@ h3,
     font-family: var(--secondary-font);
 }
 
+/* Diminish the size of h4 headings, I can't use h5 because the last I used was h3 */
+h4 {
+    font-size: 20px;
+}
+
+/* Increase the size of h3 heading because of the introduction hmtl that needs to have a h3 heading, since the last one is h2 */
+.newsletter h3 {
+    font-size: 24px;
+}
+
 /* Increase navbar-brand font size */
 .navbar-brand {
     font-size: 2rem;
@@ -443,7 +453,9 @@ footer {
 
 /* Adjust the color of the links in the footer */
 li > a{
-    color: white
+    color: white;
+    display: inline-block; 
+    padding: 6px;
 }
 
 /* Change the color of the links in the footer when hovered */

@@ -37,8 +37,8 @@
                     </a>
                     <!-- Search bar for large screens (992px and up) -->
                     <form class="d-none d-lg-flex search" role="search">
-                        <input class="form-control rounded-0" type="search" placeholder="Search..." aria-label="Search">
-                        <button class="btn rounded-0 search" type="submit"><i class="fa fa-search text-white"></i></button>
+                        <input class="form-control rounded-0" type="search" id="search-bar" placeholder="Search..." aria-label="Search">
+                        <button class="btn rounded-0 search" type="submit" aria-label="button-search"><i class="fa fa-search text-white"></i></button>
                     </form>
 
                     <!-- Toggler button for small screens -->
@@ -54,7 +54,7 @@
                             <!-- Search bar inside the collapsible menu devices less than 992px -->
                             <li class="nav-item d-lg-none">
                                 <form class="d-flex mt-3 search" role="search">
-                                    <input class="form-control rounded-0" type="search" placeholder="Search..." aria-label="Search">
+                                    <input class="form-control rounded-0" type="search" id="search-bar-toggle" placeholder="Search..." aria-label="Search">
                                     <button class="btn rounded-0 search" type="submit"><i class="fa fa-search text-white"></i></button>
                                 </form>
                             </li>
@@ -113,44 +113,44 @@
                 <div class="row justify-content-center mb-2">
                     <div class="col-12 col-md-6 col-xl-3 mb-4 gardening d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/gardening/tools.jpg" class="img-fluid mb-4" alt="Garden tools on the grass."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-gardening justify-content-center">Getting Started</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-gardening justify-content-center">Getting Started</h4></a>
                         <p class="text-center">Start Small, Grow Green: Easy Steps to Begin Sustainable Gardening</p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4 gardening d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/gardening/compost-gardening.jpg" class="img-fluid mb-4" alt="Hands holding soil."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-gardening">Compost Magic</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-gardening">Compost Magic</h4></a>
                         <p class="text-center">Compost Magic: Turn Scraps into Garden Gold</p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4 gardening d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/gardening/bee-gardening.jpg" class="img-fluid mb-4" alt="A bee on a orange flower."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-gardening">Pollinator Power</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-gardening">Pollinator Power</h4></a>
                         <p class="text-center">Bees, Bugs & Balance: Inviting Nature into Your Garden</p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4 gardening d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/gardening/natives.jpg" class="img-fluid mb-4" alt="White wildflower."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-gardening">Native Plants</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-gardening">Native Plants</h4></a>
                         <p class="text-center">Grow What Belongs: The Power of Native Plants</p>
                     </div>
                 </div>
                 <div class="row justify-content-center mb-2">
                     <div class="col-12 col-md-6 col-xl-3 mb-4 gardening d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/gardening/water.jpg" class="img-fluid mb-4" alt="Three green watering cans."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-gardening">Water Wisdom</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-gardening">Water Wisdom</h4></a>
                         <p class="text-center">Water Wisely: Tips for Saving Water in the Garden</p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4 gardening d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/gardening/lavander.jpg" class="img-fluid mb-4" alt="A dry plant with seeds."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-gardening">Natural Care</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-gardening">Natural Care</h4></a>
                         <p class="text-center">Say No to Chemicals: Natural Ways to Protect Your Plants</p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4 gardening d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/gardening/family.jpg" class="img-fluid mb-4" alt="A woman and a little girl in nature."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-gardening">Garden Wellbeing</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-gardening">Garden Wellbeing</h4></a>
                         <p class="text-center">Gardening for Wellbeing: The Human Side of Sustainability</p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4 gardening d-flex flex-column align-items-center">
                         <a href="#"><img src="assets/images/gardening/upcycled.jpg" class="img-fluid mb-4" alt="Harvested potatoes in a bag."></a>
-                        <a href="#"><h5 class="py-2 px-3 title-gardening">Upcycled Ideas</h5></a>
+                        <a href="#"><h4 class="py-2 px-3 title-gardening">Upcycled Ideas</h4></a>
                         <p class="text-center">Rethink, Reuse, Replant: Upcycled Ideas for Your Garden</p>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                 <div class="col-12 col-lg-6 mb-4 text-center mt-lg-4">
                     <h4 class="text-center text-white">Sign up to our Newsletter:</h4>
                     <form class="d-flex flex-column flex-sm-row mt-3" action="subscribeThankYou.html" method="GET">
-                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0 rounded-0" placeholder="Enter your email" required>
+                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0 rounded-0" id="newsletter" placeholder="Enter your email" required>
                         <button type="submit" class="btn subscribe rounded-0 text-white">Subscribe</button>
                     </form>
                 </div>
