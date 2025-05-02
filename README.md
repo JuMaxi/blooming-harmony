@@ -45,12 +45,6 @@ Look at my webpage by clicking here: [Blooming-Harmony](https://jumaxi.github.io
   - [Width on Small Devices](#width-on-small-devices)
   - [Content](#content)
 - [Validations](#validations)
-  - [CSS](#css)
-  - [HTML](#html)
-  - [Performance](#performance)
-  - [Accessibility](#accessibility)
-  - [Best Practices](#best-practices)
-  - [SEO](#seo)
 - [Screenshots](#screenshots)
   - [Homepage](#homepage-screenshots)
   - [Navbar link](#navbar-link)
@@ -377,8 +371,9 @@ Gardening and sustainability is a theme I am truly passionate about.
 If time allowed, I would love to create all of my content personally, rather than relying on AI to generate it for me.
 
 ## Validations
-To see testing and validation to this project, please, follow the link below:
-[VALIDATIONS.md](Validations)
+For detailed testing and validation of this project, please follow the link below:
+
+[Validations](VALIDATIONS.md)
 
 ## Screenshots
 For readability, I’ll display only the 1400px version of the image below. But, you can view my responsive 
