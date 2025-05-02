@@ -150,7 +150,8 @@ Best Practices validation resulted in a score of 100%.
 ### SEO
 SEO validation resulted in a score of 100%.
 
-Please see the results of the validation below. 
+### Lighthouse Validation Results
+*Please see the results of the validations below.*
 
 #### Thank You - Desktop
 ![Lighthouse Validation - Thank You Desktop](assets/images/validations/lighthouse-validation-thankyou-desktop.png)
