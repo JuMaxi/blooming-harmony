@@ -93,515 +93,499 @@
         </div>
     </header>
 
-<!-- I got this code in https://www.codeply.com/p/GSinLfFXIJ, spent some time undertanding it and adjusted as my need -->
-<!-- Main Content -->
-<main>
+    <!-- I got this code in https://www.codeply.com/p/GSinLfFXIJ, spent some time undertanding it and adjusted as my need -->
+    <!-- Main Content -->
+    <main>
 
-    <!-- Section to introduce the timeline seasons-->
-    <section class="py-5 px-1">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 mb-4 text-center">
-                    <h2 class="text-center mb-4">Timeline Seasons</h2>
-                    <h3 class="text-center mb-4">Explore the beauty of each season and discover how to make the most of your garden all year round.</h3>
-                    <p>Scroll ahead to find the current month, click on it, and explore our sustainable gardening tips tailored just for this time of year!</p>
+        <!-- Section to introduce the timeline seasons-->
+        <section class="py-5 px-1">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 mb-4 text-center">
+                        <h2 class="text-center mb-4">Timeline Seasons</h2>
+                        <h3 class="text-center mb-4">Explore the beauty of each season and discover how to make the most of your garden all year round.</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Section to the seasons timeline -->
+        <section class="my-2"> <!-- margin in the vertical way Y -->
+
+            <div class="container py-4"> <!-- padding in the vertical way Y-->
+
+                <!-- timeline item January -->
+                <!-- This row is holding all the content for the first card, it means it has the spaces in the 
+                    left side + the middle border and its spaces + the middle badge + the card and all its content -->
+
+                <div class="row g-0"> <!-- class g-0 is used to remove all the gutter (spacing) between columns inside a row-->
+
+                    <!-- All these two next div content is just displayed in devices 768px and up -->
+                    <div class="col-sm"></div><!-- This col is the left space - the bigger one that is aligned with the card it is displayed just in devices with 768px and up -->
+
+                    <!-- timeline item 1 center dot -->
+                    <!-- This col is the middle space - the middle one that is aligned with the left big space and the card and it is displayed just in devices with 768px and up -->
+                    <!-- The flex-column class make the direction to vertical instead of horizontal-->
+                    <div class="col-sm-2 text-center flex-column d-none d-md-flex">
+
+                        <!-- It creates a empty row to give space when starting the first card in the timeline and it is setting this row with 50% height of its parent -->
+                        <div class="row h-50"></div>
+
+                        <!-- It uses a icon to "draw" the small circles that are above the vertical drawed border (inside the col parent) like a "o" -->
+                        <!-- The icon is drawed with the boostrap classes badge + rounded-pill and the bf-info just brings the color blue to this icon background -->
+                        <!-- The &nbsp used is a non-breaking space, it means that a space that will not break into a new line -->
+                        <h5 class="m-2">
+                            <span class="badge rounded-pill bg-info">&nbsp;</span>
+                        </h5>
+
+                        <!-- It creates a new row setting max height of 50% of its parent-->
+                        <!-- It works similarly to the first row h-50, with the difference that is it at the end of the middle column
+                            and is is not empty -->
+                        <!-- Also it is holding a column where there is a border with the same style of the badge-->
+                        <div class="row h-50">
+                            <!-- It is the vertical border that startes below the badge and goes through the end of the parent (col-sm-2) -->
+                            <div class="col border-4 border-info border-end">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+
+                    <!-- timeline item 1 event content - Our month card -->
+                    <div class="col-md py-3">
+                        <a href="#read-more" class="text-decoration-none text-dark">
+                            <div class="card winter-card rounded-0">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title text-center" data-month="January">January</h4>
+                                    <p class="card-text">
+                                    Start the year by planning your garden with sustainability in
+                                    mind — choose native plants, rotate crops, and consider
+                                    water-saving layouts.
+                                    </p>
+                                    <img src="assets/images/seasons/timeline/january.jpg" class="img-fluid" alt="A Robin bird in a winter day with snow.">
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+                <!--/row-->
+        
+                <!-- timeline item February -->
+                <div class="row g-0">
+                    <div class="col-md py-3">
+                        <a href="#read-more" class="text-decoration-none text-dark">
+                            <div class="card winter-card rounded-0">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title" data-month="February">February</h4>
+                                    <p class="card-text">
+                                    Reduce plastic use by sowing seeds in reused containers like
+                                    egg cartons or yogurt pots. It’s eco-friendly and gets you
+                                    ahead for spring.
+                                    </p>
+                                    <img src="assets/images/seasons/timeline/february.jpg" class="img-fluid" alt="A cup with a small plant growing inside.">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-2 text-center flex-column d-none d-md-flex">
+                        <!-- It uses a icon to "draw" the vertical line between the cards like card | card -->
+                        <div class="row h-50">
+                            <div class="col border-4 border-info border-end">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <!-- It uses a icon to "draw" the small circles that are between the vertical drawed line like a "o" -->
+                        <h5 class="m-2">
+                            <span class="badge rounded-pill bg-info">&nbsp;</span>
+                        </h5>
+                        <!-- It uses a icon to "draw" the vertical line between the cards like card | card -->
+                        <div class="row h-50">
+                            <div class="col border-4 border-info border-end">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="col-sm"><!--spacer--></div>
+                </div>
+                <!--/row-->
+        
+                <!-- timeline item March -->
+                <div class="row g-0">
+                    <div class="col-sm"><!--spacer--></div>
+                    <div class="col-sm-2 text-center flex-column d-none d-md-flex">
+                        <div class="row h-50">
+                            <!-- border-end is a utility class that adds a border to the end side of an element -->
+                            <div class="col border-4 border-info border-end">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge bg-info rounded-pill">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col border-4 border-info border-end">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="col-md py-3">
+                        <a href="#read-more" class="text-decoration-none text-dark">
+                            <div class="card winter-card rounded-0">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title" data-month="March">March</h4>
+                                    <p class="card-text">
+                                    Enrich your soil with homemade compost or well-rotted manure.
+                                    Avoid chemical fertilizers to support biodiversity below
+                                    ground.
+                                    </p>
+                                    <img src="assets/images/seasons/timeline/march.jpg" class="img-fluid" alt="Homemade compost in a garden.">
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+                <!--/row-->
+        
+                <!-- timeline item April -->
+                <div class="row g-0">
+                    <div class="col-md py-3">
+                        <a href="#read-more" class="text-decoration-none text-dark">
+                            <div class="card spring-card rounded-0">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title" data-month="April">April</h4>
+                                    <p class="card-text">
+                                        Plant nectar-rich flowers and avoid pesticides to create a haven for bees and butterflies as they return in spring.
+                                    </p>
+                                    <img src="assets/images/seasons/timeline/april.jpg" class="img-fluid" alt="A butterfly in a flower.">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-2 text-center flex-column d-none d-md-flex">
+                        <div class="row h-50">
+                            <div class="col border-4 border-end border-spring">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge rounded-pill badge-spring">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col border-4 border-end border-spring">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="col-sm"><!--spacer--></div>
+                </div>
+                <!--/row-->
+        
+                <!-- timeline item May -->
+                <div class="row g-0">
+                    <div class="col-sm"><!--spacer--></div>
+                    <div class="col-sm-2 text-center flex-column d-none d-md-flex">
+                        <div class="row h-50">
+                            <!-- border-end is a utility class that adds a border to the end side of an element -->
+                            <div class="col border-4 border-end border-spring">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge rounded-pill badge-spring">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col border-4 border-end border-spring">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="col-md py-3">
+                        <a href="#read-more" class="text-decoration-none text-dark">
+                            <div class="card spring-card rounded-0">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">May</h4>
+                                    <p class="card-text" data-month="May">
+                                        Add a layer of mulch around plants to retain moisture, suppress weeds, and reduce watering needs — naturally.
+                                    </p>
+                                    <img src="assets/images/seasons/timeline/may.jpg" class="img-fluid" alt="A Hyacinth flower with mulch.">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--/row-->
+        
+                <!-- timeline item June -->
+                <div class="row g-0">
+                    <div class="col-md py-3">
+                        <a href="#read-more" class="text-decoration-none text-dark">
+                            <div class="card spring-card rounded-0">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title" data-month="June">June</h4>
+                                    <p class="card-text">
+                                        Install a water butt or rain barrel to collect rainwater for your garden. It saves water and keeps your plants happy.
+                                    </p>
+                                    <img src="assets/images/seasons/timeline/june.jpg" class="img-fluid" alt="Watering the plants with a watering can.">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-2 text-center flex-column d-none d-md-flex">
+                        <div class="row h-50">
+                            <div class="col border-4 border-end border-spring">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge rounded-pill badge-spring">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col border-4 border-end border-spring">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="col-sm"><!--spacer--></div>
+                </div>
+                <!--/row-->
+        
+                <!-- timeline item July -->
+                <div class="row g-0">
+                    <div class="col-sm"><!--spacer--></div>
+                    <div class="col-sm-2 text-center flex-column d-none d-md-flex">
+                        <div class="row h-50">
+                            <!-- border-end is a utility class that adds a border to the end side of an element -->
+                            <div class="col border-4 border-warning border-end">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge rounded-pill bg-warning">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col border-4 border-warning border-end">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="col-md py-3">
+                        <a href="#read-more" class="text-decoration-none text-dark">
+                            <div class="card summer-card rounded-0">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title" data-month="July">July</h4>
+                                    <p class="card-text">
+                                        Use taller plants or recycled materials to create shade for heat-sensitive crops, reducing sun damage and water evaporation.
+                                    </p>
+                                    <img src="assets/images/seasons/timeline/july.jpg" class="img-fluid" alt="A garden with several flowers and plants.">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--/row-->
+        
+                <!-- timeline item August -->
+                <div class="row g-0">
+                    <div class="col-md py-3">
+                        <a href="#read-more" class="text-decoration-none text-dark">
+                            <div class="card summer-card rounded-0">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title" data-month="August">August</h4>
+                                    <p class="card-text">
+                                        Sow late-season crops like spinach, carrots, and kale. Extend your harvest while making the most of summer warmth.
+                                    </p>
+                                    <img src="assets/images/seasons/timeline/august.jpg" class="img-fluid" alt="A garden with herbs and vegetables.">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-2 text-center flex-column d-none d-md-flex">
+                        <div class="row h-50">
+                            <div class="col border-4 border-warning border-end">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge rounded-pill bg-warning">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col border-4 border-warning border-end">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="col-sm"><!--spacer--></div>
+                </div>
+                <!--/row-->
+        
+                <!-- timeline item September -->
+                <div class="row g-0">
+                    <div class="col-sm"><!--spacer--></div>
+                    <div class="col-sm-2 text-center flex-column d-none d-md-flex">
+                        <div class="row h-50">
+                            <!-- border-end is a utility class that adds a border to the end side of an element -->
+                            <div class="col border-4 border-warning border-end">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge rounded-pill bg-warning">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col border-4 border-warning border-end">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="col-md py-3">
+                        <a href="#read-more" class="text-decoration-none text-dark">
+                            <div class="card summer-card rounded-0">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title" data-month="September"> September</h4>
+                                    <p class="card-text">
+                                        Collect seeds from healthy plants to replant next year. It’s cost-effective, sustainable, and promotes biodiversity.
+                                    </p>
+                                    <img src="assets/images/seasons/timeline/september.jpg" class="img-fluid" alt="Poppy seed capsule.">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--/row-->
+        
+                <!-- timeline item October -->
+                <div class="row g-0">
+                    <div class="col-md py-3">
+                        <a href="#read-more" class="text-decoration-none text-dark">
+                            <div class="card autumn-card rounded-0">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title" data-month="October">October</h4>
+                                    <p class="card-text">
+                                        Rake fallen leaves into a compost bin or pile. They break down into leaf mould, a rich soil conditioner.
+                                    </p>
+                                    <img src="assets/images/seasons/timeline/october.jpg" class="img-fluid" alt="Fallen leaves in autumn.">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-2 text-center flex-column d-none d-md-flex">
+                        <div class="row h-50">
+                            <div class="col border-4 border-end border-autumn">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge rounded-pill badge-autumn">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col border-4 border-end border-autumn">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="col-sm"><!--spacer--></div>
+                </div>
+                <!--/row-->
+        
+                <!-- timeline item November -->
+                <div class="row g-0">
+                    <div class="col-sm"><!--spacer--></div>
+                    <div class="col-sm-2 text-center flex-column d-none d-md-flex">
+                        <div class="row h-50">
+                            <!-- border-end is a utility class that adds a border to the end side of an element -->
+                            <div class="col border-4 border-end border-autumn">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge rounded-pill badge-autumn">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col border-4 border-end border-autumn">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="col-md py-3">
+                        <a href="#read-more" class="text-decoration-none text-dark">
+                            <div class="card autumn-card rounded-0">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title" data-month="November">November</h4>
+                                    <p class="card-text">
+                                        Leave some garden areas undisturbed — they offer shelter to hibernating insects, frogs, and hedgehogs.
+                                    </p>
+                                    <img src="assets/images/seasons/timeline/november.jpg" class="img-fluid" alt="A bird in a tree in the autumn">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--/row-->
+        
+                <!-- timeline item December -->
+                <div class="row g-0">
+                    <div class="col-md py-3">
+                        <a href="#read-more" class="text-decoration-none text-dark">
+                            <div class="card autumn-card rounded-0">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title" data-month="December">December</h4>
+                                    <p class="card-text">
+                                        Use foraged pinecones, branches, and holly for decorations instead of plastic — garden-friendly and festive!
+                                    </p>
+                                    <img src="assets/images/seasons/timeline/december.jpg" class="img-fluid" alt="Pines and branchs in a basket to decorations.">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-2 text-center flex-column d-none d-md-flex">
+                        <!-- It creates a row and in the divs is using a icon to "draw" the vertical line between the cards like card | card -->
+                        <div class="row h-50">
+                            <div class="col border-4 border-end border-autumn">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <!-- It uses a icon to "draw" the small circles that are between the vertical drawed line like a "o" -->
+                        <h5 class="m-2">
+                            <span class="badge rounded-pill badge-autumn">&nbsp;</span>
+                        </h5>
+                        <!-- It creates a empty row to give space when finishing the last card in the timeline -->
+                        <div class="row h-50"></div>
+                    </div>
+                    <div class="col-sm"><!--spacer--></div>
+                </div>
+                <!--/row-->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <!--On screens with less than 992px the content justify center. 992px and up justify between -->
+            <div class="row justify-content-center justify-content-lg-between">
+
+                <!-- Column 1: Links and Social Media -->
+                <div class="col-12 col-lg-3 mb-4 text-center links">
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                    <div class="mt-3 social-media">
+                        <a href="#" class="me-3" target="_blank" aria-label="Visit our facebook page."><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="#" class="me-3" target="_blank" aria-label="Visit our instagram page."><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="#" class="me-3" target="_blank" aria-label="Visit our twitter page."><i class="fa-brands fa-twitter fa-lg"></i></a>
+                        <a href="#" class="me-3" target="_blank" aria-label="Visit our pinterest page."><i class="fa-brands fa-pinterest fa-lg"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 1: Newsletter Form -->
+                <div class="col-12 col-lg-6 mb-4 text-center mt-lg-4">
+                    <h4 class="text-center text-white">Sign up to our Newsletter:</h4>
+                    <form class="d-flex flex-column flex-sm-row mt-3" action="subscribeThankYou.html" method="GET">
+                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0 rounded-0" id="newsletter" placeholder="Enter your email" required>
+                        <button type="submit" class="btn subscribe rounded-0 text-white">Subscribe</button>
+                    </form>
+                </div>
+
+                <!-- Column 3: Responsive Image -->
+                <div class="col-12 col-lg-3 d-flex align-items-center links">
+                    <img src="assets/images/homepage/logo.png" class="img-fluid footer-img" alt="Fox, butterflies, bird and flowers">
                 </div>
             </div>
-            
+            <div class="row bottom-fixed text-center text-white">
+                <p>&copy; 2025 Blooming Harmony. All rights reserved.</p>
+            </div>
         </div>
-    </section>
+    </footer>
 
-    <!-- Section to the seasons timeline -->
-    <section class="my-2"> <!-- margin in the vertical way Y -->
+    <!-- Font Awesome kit-->
+    <script src="https://kit.fontawesome.com/6ec5d9a39e.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-        <div class="container py-4"> <!-- padding in the vertical way Y-->
-
-            <!-- timeline item January -->
-            <!-- This row is holding all the content for the first card, it means it has the spaces in the 
-                left side + the middle border and its spaces + the middle badge + the card and all its content -->
-
-            <div class="row g-0"> <!-- class g-0 is used to remove all the gutter (spacing) between columns inside a row-->
-
-                <!-- All these two next div content is just displayed in devices 768px and up -->
-                <div class="col-sm"></div><!-- This col is the left space - the bigger one that is aligned with the card it is displayed just in devices with 768px and up -->
-
-                <!-- timeline item 1 center dot -->
-                <!-- This col is the middle space - the middle one that is aligned with the left big space and the card and it is displayed just in devices with 768px and up -->
-                <!-- The flex-column class make the direction to vertical instead of horizontal-->
-                <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-
-                    <!-- It creates a empty row to give space when starting the first card in the timeline and it is setting this row with 50% height of its parent -->
-                    <div class="row h-50"></div>
-
-                    <!-- It uses a icon to "draw" the small circles that are above the vertical drawed border (inside the col parent) like a "o" -->
-                    <!-- The icon is drawed with the boostrap classes badge + rounded-pill and the bf-info just brings the color blue to this icon background -->
-                    <!-- The &nbsp used is a non-breaking space, it means that a space that will not break into a new line -->
-                    <h5 class="m-2">
-                        <span class="badge rounded-pill bg-info">&nbsp;</span>
-                    </h5>
-
-                    <!-- It creates a new row setting max height of 50% of its parent-->
-                    <!-- It works similarly to the first row h-50, with the difference that is it at the end of the middle column
-                        and is is not empty -->
-                    <!-- Also it is holding a column where there is a border with the same style of the badge-->
-                    <div class="row h-50">
-                        <!-- It is the vertical border that startes below the badge and goes through the end of the parent (col-sm-2) -->
-                        <div class="col border-4 border-info border-end">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                </div>
-
-                <!-- timeline item 1 event content - Our month card -->
-                <div class="col-md py-3">
-                    <a href="#read-more" class="text-decoration-none text-dark">
-                        <div class="card winter-card rounded-0">
-                            <div class="card-body text-center">
-                                <h4 class="card-title text-center">January</h4>
-                                <p class="card-text">
-                                Start the year by planning your garden with sustainability in
-                                mind — choose native plants, rotate crops, and consider
-                                water-saving layouts.
-                                </p>
-                                <img src="assets/images/seasons/timeline/january.jpg" class="img-fluid" alt="A Robin bird in a winter day with snow.">
-                            </div>
-                        </div>
-                    </a>
-                    
-                </div>
-            </div>
-            <!--/row-->
-    
-            <!-- timeline item February -->
-            <div class="row g-0">
-                <div class="col-md py-3">
-                    <a href="#read-more" class="text-decoration-none text-dark">
-                        <div class="card winter-card rounded-0">
-                            <div class="card-body text-center">
-                                <h4 class="card-title">February</h4>
-                                <p class="card-text">
-                                Reduce plastic use by sowing seeds in reused containers like
-                                egg cartons or yogurt pots. It’s eco-friendly and gets you
-                                ahead for spring.
-                                </p>
-                                <img src="assets/images/seasons/timeline/february.jpg" class="img-fluid" alt="A cup with a small plant growing inside.">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-                    <!-- It uses a icon to "draw" the vertical line between the cards like card | card -->
-                    <div class="row h-50">
-                        <div class="col border-4 border-info border-end">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                    <!-- It uses a icon to "draw" the small circles that are between the vertical drawed line like a "o" -->
-                    <h5 class="m-2">
-                        <span class="badge rounded-pill bg-info">&nbsp;</span>
-                    </h5>
-                    <!-- It uses a icon to "draw" the vertical line between the cards like card | card -->
-                    <div class="row h-50">
-                        <div class="col border-4 border-info border-end">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                </div>
-                <div class="col-sm"><!--spacer--></div>
-            </div>
-            <!--/row-->
-    
-            <!-- timeline item March -->
-            <div class="row g-0">
-                <div class="col-sm"><!--spacer--></div>
-                <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-                    <div class="row h-50">
-                        <!-- border-end is a utility class that adds a border to the end side of an element -->
-                        <div class="col border-4 border-info border-end">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                    <h5 class="m-2">
-                        <span class="badge bg-info rounded-pill">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col border-4 border-info border-end">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                </div>
-                <div class="col-md py-3">
-                    <a href="#read-more" class="text-decoration-none text-dark">
-                        <div class="card winter-card rounded-0">
-                            <div class="card-body text-center">
-                                <h4 class="card-title">March</h4>
-                                <p class="card-text">
-                                Enrich your soil with homemade compost or well-rotted manure.
-                                Avoid chemical fertilizers to support biodiversity below
-                                ground.
-                                </p>
-                                <img src="assets/images/seasons/timeline/march.jpg" class="img-fluid" alt="Homemade compost in a garden.">
-                            </div>
-                        </div>
-                    </a>
-                    
-                </div>
-            </div>
-            <!--/row-->
-    
-            <!-- timeline item April -->
-            <div class="row g-0">
-                <div class="col-md py-3">
-                    <a href="#read-more" class="text-decoration-none text-dark">
-                        <div class="card spring-card rounded-0">
-                            <div class="card-body text-center">
-                                <h4 class="card-title">April</h4>
-                                <p class="card-text">
-                                    Plant nectar-rich flowers and avoid pesticides to create a haven for bees and butterflies as they return in spring.
-                                </p>
-                                <img src="assets/images/seasons/timeline/april.jpg" class="img-fluid" alt="A butterfly in a flower.">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-                    <div class="row h-50">
-                        <div class="col border-4 border-end border-spring">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                    <h5 class="m-2">
-                        <span class="badge rounded-pill badge-spring">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col border-4 border-end border-spring">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                </div>
-                <div class="col-sm"><!--spacer--></div>
-            </div>
-            <!--/row-->
-    
-            <!-- timeline item May -->
-            <div class="row g-0">
-                <div class="col-sm"><!--spacer--></div>
-                <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-                    <div class="row h-50">
-                        <!-- border-end is a utility class that adds a border to the end side of an element -->
-                        <div class="col border-4 border-end border-spring">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                    <h5 class="m-2">
-                        <span class="badge rounded-pill badge-spring">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col border-4 border-end border-spring">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                </div>
-                <div class="col-md py-3">
-                    <a href="#read-more" class="text-decoration-none text-dark">
-                        <div class="card spring-card rounded-0">
-                            <div class="card-body text-center">
-                                <h4 class="card-title">May</h4>
-                                <p class="card-text">
-                                    Add a layer of mulch around plants to retain moisture, suppress weeds, and reduce watering needs — naturally.
-                                </p>
-                                <img src="assets/images/seasons/timeline/may.jpg" class="img-fluid" alt="A Hyacinth flower with mulch.">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!--/row-->
-    
-            <!-- timeline item June -->
-            <div class="row g-0">
-                <div class="col-md py-3">
-                    <a href="#read-more" class="text-decoration-none text-dark">
-                        <div class="card spring-card rounded-0">
-                            <div class="card-body text-center">
-                                <h4 class="card-title">June</h4>
-                                <p class="card-text">
-                                    Install a water butt or rain barrel to collect rainwater for your garden. It saves water and keeps your plants happy.
-                                </p>
-                                <img src="assets/images/seasons/timeline/june.jpg" class="img-fluid" alt="Watering the plants with a watering can.">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-                    <div class="row h-50">
-                        <div class="col border-4 border-end border-spring">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                    <h5 class="m-2">
-                        <span class="badge rounded-pill badge-spring">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col border-4 border-end border-spring">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                </div>
-                <div class="col-sm"><!--spacer--></div>
-            </div>
-            <!--/row-->
-    
-            <!-- timeline item July -->
-            <div class="row g-0">
-                <div class="col-sm"><!--spacer--></div>
-                <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-                    <div class="row h-50">
-                        <!-- border-end is a utility class that adds a border to the end side of an element -->
-                        <div class="col border-4 border-warning border-end">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                    <h5 class="m-2">
-                        <span class="badge rounded-pill bg-warning">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col border-4 border-warning border-end">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                </div>
-                <div class="col-md py-3">
-                    <a href="#read-more" class="text-decoration-none text-dark">
-                        <div class="card summer-card rounded-0">
-                            <div class="card-body text-center">
-                                <h4 class="card-title">July</h4>
-                                <p class="card-text">
-                                    Use taller plants or recycled materials to create shade for heat-sensitive crops, reducing sun damage and water evaporation.
-                                </p>
-                                <img src="assets/images/seasons/timeline/july.jpg" class="img-fluid" alt="A garden with several flowers and plants.">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!--/row-->
-    
-            <!-- timeline item August -->
-            <div class="row g-0">
-                <div class="col-md py-3">
-                    <a href="#read-more" class="text-decoration-none text-dark">
-                        <div class="card summer-card rounded-0">
-                            <div class="card-body text-center">
-                                <h4 class="card-title">August</h4>
-                                <p class="card-text">
-                                    Sow late-season crops like spinach, carrots, and kale. Extend your harvest while making the most of summer warmth.
-                                </p>
-                                <img src="assets/images/seasons/timeline/august.jpg" class="img-fluid" alt="A garden with herbs and vegetables.">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-                    <div class="row h-50">
-                        <div class="col border-4 border-warning border-end">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                    <h5 class="m-2">
-                        <span class="badge rounded-pill bg-warning">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col border-4 border-warning border-end">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                </div>
-                <div class="col-sm"><!--spacer--></div>
-            </div>
-            <!--/row-->
-    
-            <!-- timeline item September -->
-            <div class="row g-0">
-                <div class="col-sm"><!--spacer--></div>
-                <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-                    <div class="row h-50">
-                        <!-- border-end is a utility class that adds a border to the end side of an element -->
-                        <div class="col border-4 border-warning border-end">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                    <h5 class="m-2">
-                        <span class="badge rounded-pill bg-warning">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col border-4 border-warning border-end">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                </div>
-                <div class="col-md py-3">
-                    <a href="#read-more" class="text-decoration-none text-dark">
-                        <div class="card summer-card rounded-0">
-                            <div class="card-body text-center">
-                                <h4 class="card-title"> September</h4>
-                                <p class="card-text">
-                                    Collect seeds from healthy plants to replant next year. It’s cost-effective, sustainable, and promotes biodiversity.
-                                </p>
-                                <img src="assets/images/seasons/timeline/september.jpg" class="img-fluid" alt="Poppy seed capsule.">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!--/row-->
-    
-            <!-- timeline item October -->
-            <div class="row g-0">
-                <div class="col-md py-3">
-                    <a href="#read-more" class="text-decoration-none text-dark">
-                        <div class="card autumn-card rounded-0">
-                            <div class="card-body text-center">
-                                <h4 class="card-title">October</h4>
-                                <p class="card-text">
-                                    Rake fallen leaves into a compost bin or pile. They break down into leaf mould, a rich soil conditioner.
-                                </p>
-                                <img src="assets/images/seasons/timeline/october.jpg" class="img-fluid" alt="Fallen leaves in autumn.">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-                    <div class="row h-50">
-                        <div class="col border-4 border-end border-autumn">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                    <h5 class="m-2">
-                        <span class="badge rounded-pill badge-autumn">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col border-4 border-end border-autumn">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                </div>
-                <div class="col-sm"><!--spacer--></div>
-            </div>
-            <!--/row-->
-    
-            <!-- timeline item November -->
-            <div class="row g-0">
-                <div class="col-sm"><!--spacer--></div>
-                <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-                    <div class="row h-50">
-                        <!-- border-end is a utility class that adds a border to the end side of an element -->
-                        <div class="col border-4 border-end border-autumn">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                    <h5 class="m-2">
-                        <span class="badge rounded-pill badge-autumn">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col border-4 border-end border-autumn">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                </div>
-                <div class="col-md py-3">
-                    <a href="#read-more" class="text-decoration-none text-dark">
-                        <div class="card autumn-card rounded-0">
-                            <div class="card-body text-center">
-                                <h4 class="card-title">November</h4>
-                                <p class="card-text">
-                                    Leave some garden areas undisturbed — they offer shelter to hibernating insects, frogs, and hedgehogs.
-                                </p>
-                                <img src="assets/images/seasons/timeline/november.jpg" class="img-fluid" alt="A bird in a tree in the autumn">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!--/row-->
-    
-            <!-- timeline item December -->
-            <div class="row g-0">
-                <div class="col-md py-3">
-                    <a href="#read-more" class="text-decoration-none text-dark">
-                        <div class="card autumn-card rounded-0">
-                            <div class="card-body text-center">
-                                <h4 class="card-title">December</h4>
-                                <p class="card-text">
-                                    Use foraged pinecones, branches, and holly for decorations instead of plastic — garden-friendly and festive!
-                                </p>
-                                <img src="assets/images/seasons/timeline/december.jpg" class="img-fluid" alt="Pines and branchs in a basket to decorations.">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-2 text-center flex-column d-none d-md-flex">
-                    <!-- It creates a row and in the divs is using a icon to "draw" the vertical line between the cards like card | card -->
-                    <div class="row h-50">
-                        <div class="col border-4 border-end border-autumn">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                    <!-- It uses a icon to "draw" the small circles that are between the vertical drawed line like a "o" -->
-                    <h5 class="m-2">
-                        <span class="badge rounded-pill badge-autumn">&nbsp;</span>
-                    </h5>
-                    <!-- It creates a empty row to give space when finishing the last card in the timeline -->
-                    <div class="row h-50"></div>
-                </div>
-                <div class="col-sm"><!--spacer--></div>
-            </div>
-            <!--/row-->
-        </div>
-    </section>
-
-</main>
-
-<!-- Footer -->
-<footer>
-    <div class="container-fluid">
-        <!--On screens with less than 992px the content justify center. 992px and up justify between -->
-        <div class="row justify-content-center justify-content-lg-between">
-
-            <!-- Column 1: Links and Social Media -->
-            <div class="col-12 col-lg-3 mb-4 text-center links">
-                <ul class="list-unstyled mt-3">
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-                <div class="mt-3 social-media">
-                    <a href="#" class="me-3" target="_blank" aria-label="Visit our facebook page."><i class="fa-brands fa-facebook fa-lg"></i></a>
-                    <a href="#" class="me-3" target="_blank" aria-label="Visit our instagram page."><i class="fa-brands fa-instagram fa-lg"></i></a>
-                    <a href="#" class="me-3" target="_blank" aria-label="Visit our twitter page."><i class="fa-brands fa-twitter fa-lg"></i></a>
-                    <a href="#" class="me-3" target="_blank" aria-label="Visit our pinterest page."><i class="fa-brands fa-pinterest fa-lg"></i></a>
-                </div>
-            </div>
-
-            <!-- Column 1: Newsletter Form -->
-            <div class="col-12 col-lg-6 mb-4 text-center mt-lg-4">
-                <h4 class="text-center text-white">Sign up to our Newsletter:</h4>
-                <form class="d-flex flex-column flex-sm-row mt-3" action="subscribeThankYou.html" method="GET">
-                    <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0 rounded-0" id="newsletter" placeholder="Enter your email" required>
-                    <button type="submit" class="btn subscribe rounded-0 text-white">Subscribe</button>
-                </form>
-            </div>
-
-            <!-- Column 3: Responsive Image -->
-            <div class="col-12 col-lg-3 d-flex align-items-center links">
-                <img src="assets/images/homepage/logo.png" class="img-fluid footer-img" alt="Fox, butterflies, bird and flowers">
-            </div>
-        </div>
-        <div class="row bottom-fixed text-center text-white">
-            <p>&copy; 2025 Blooming Harmony. All rights reserved.</p>
-        </div>
-    </div>
-</footer>
-
-<!-- Font Awesome kit-->
-<script src="https://kit.fontawesome.com/6ec5d9a39e.js" crossorigin="anonymous"></script>
-<!-- Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-<!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const navLinks = document.querySelectorAll('.nav-link');
-        const navbarCollapse = document.getElementById('navbarNav');
-        navLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                if (window.innerWidth < 992) { // Adjust breakpoint as needed
-                    const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
-                        toggle: true
-                    });
-                    bsCollapse.hide();
-                }
-            });
-        });
-    });
-</script>
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
 </body>
    
 </html>
