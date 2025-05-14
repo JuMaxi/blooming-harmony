@@ -1,13 +1,18 @@
 # Blooming-harmony
 
-Look at my webpage by clicking here: [Blooming-Harmony](https://jumaxi.github.io/blooming-harmony/)
----
+Click [here](https://jumaxi.github.io/blooming-harmony/) to explore the live version of my responsive website.
+
+
+
 ![Mockup-devices](assets/images/screenshots/mockup-devices.png)
 
 ## Table of Contents
 
 - [Project Goals](#project-goals)
-- [Why this subject?](#why-this-subject)
+- [Responsive Design](#responsive-design)
+  - [Bootstrap's Responsive Grid System](#bootstraps-responsive-grid-system)
+  - [Custom Media Queries](#custom-media-queries)
+  - [Flexible Images and Layouts](#flexible-images-and-layouts)
 - [Target Audience](#target-audience)
 - [User Goals](#user-goals)
 - [User Experience (UX)](#user-experience-ux)
@@ -62,18 +67,21 @@ Look at my webpage by clicking here: [Blooming-Harmony](https://jumaxi.github.io
 - Encourage visitors to **adopt organic, wildlife-friendly methods** in their own gardens.  
 - Build an online space that inspires a **community of conscious gardeners** to share and grow together.  
 
-### Why this subject?
+## Responsive Design
+This project was built with a strong emphasis on responsive design, ensuring that the website delivers a seamless and visually appealing experience across a wide range of devices. From desktops and laptops to tablets and smartphones.
 
-For as long as I can remember, I’ve felt a strong connection to nature and over time, that connection has grown into a personal mission to garden in a way that nurtures both the earth and all the life it supports.
+### Bootstrap's Responsive Grid System
+I used Bootstrap’s flexible and mobile-first grid system to structure the layout. This allows elements to adjust and stack intelligently based on screen size.
 
-Last year, I had the opportunity to volunteer at a **community sustainable garden**, where I worked alongside others who shared the same values. That experience truly opened my eyes to the power of growing food and flowers in harmony with nature. I learned how small actions—like choosing organic seeds, composting kitchen waste, or planting for pollinators—can make a meaningful difference.
+### Custom Media Queries
+Beyond Bootstrap’s built-in responsiveness, I implemented custom CSS media queries to fine-tune the look and behavior of specific elements for different breakpoints, ensuring consistent readability and usability.
 
-Now, as I build my own garden, I continue to learn every day. I'm discovering natural, **safe chemical-free for plant diseases**, finding **gentle ways to coexist with local wildlife** like foxes, and deepening my understanding of **composting** as a way to give back to the soil. It’s a journey of patience, observation, and care.
+### Flexible Images and Layouts
+Images and sections scale fluidly to adapt to different screen widths, preserving both aesthetics and functionality.
 
-Through this website, I hope to share what I'm learning and encourage others to join the movement toward more **sustainable, wildlife-friendly gardening**. I truly believe that the way we garden today can help build a better, greener future for our communities, our climate, and the generations to come.
+*Check out the [screenshots](#screenshots) to see how the website looks across different devices.*
 
-
-### Target Audience
+## Target Audience
 - Gardeners interested in sustainable and organic practices  
 - UK residents looking for climate-friendly gardening tips  
 - People who want to support wildlife in their gardens  
