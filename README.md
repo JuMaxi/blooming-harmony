@@ -1,6 +1,8 @@
 # Blooming-harmony
 
 Look at my webpage by clicking here: [Blooming-Harmony](https://jumaxi.github.io/blooming-harmony/)
+---
+![Mockup-devices](assets/images/screenshots/mockup-devices.png)
 
 ## Table of Contents
 
