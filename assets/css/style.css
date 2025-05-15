@@ -113,7 +113,7 @@ h4 {
 
 /* Hero section */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/homepage/hero.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/homepage/hero.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -158,15 +158,15 @@ article .container {
 }
 
 .starting {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/homepage/getting-started.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/homepage/getting-started.webp");
 }
 
 .pollinators {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/homepage/bee.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/homepage/bee.webp");
 }
 
 .weeds {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/homepage/dandelion.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/homepage/dandelion.webp");
 }
 
 /* Carousel seasons homepage */
@@ -178,7 +178,7 @@ article .container {
 
 /* A background image to the message about seasons */
 #seasons .calendar {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/homepage/calendar.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/homepage/calendar.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; /* Ensures the image is centered */
@@ -237,23 +237,23 @@ article .container {
     border:white;
 }
 .winter-card {
-    background-image: url(../images/seasons/timeline/ice.png);
+    background-image: url(../images/seasons/timeline/ice.webp);
     background-color: rgba(255,255,255,0.6); /* Light background color */
     background-blend-mode: lighten; /* Blends the image with the background color */
 }
 
 .spring-card {
-    background-image: url(../images/seasons/timeline/flowers.png);
+    background-image: url(../images/seasons/timeline/flowers.webp);
 }
 
 .summer-card {
-    background-image: url(../images/seasons/timeline/sun.png);
+    background-image: url(../images/seasons/timeline/sun.webp);
     background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .autumn-card {
-    background-image: url(../images/seasons/timeline/leaves.png);
+    background-image: url(../images/seasons/timeline/leaves.webp);
     background-color: rgba(255,255,255,0.8);
     background-blend-mode: lighten;
 }
@@ -415,7 +415,7 @@ z-index: 1; /* Makes sure it appears above others if overlapping */
 /* About Us section */
 
 #about {
-    background-image: url("../images/mascote.png");
+    background-image: url("../images/mascote.webp");
     background-repeat: no-repeat;
     background-color: rgba(255,255,255,0.9); /* Light background color */
     background-blend-mode: lighten; /* Blends the image with the background color, brings opacity to the image */
