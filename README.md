@@ -2,12 +2,11 @@
 
 Click [here](https://jumaxi.github.io/blooming-harmony/) to explore the live version of my responsive website.
 
-
-
 ![Mockup-devices](assets/images/screenshots/mockup-devices.png)
 
 ## Table of Contents
 
+- [Updates](#updates-summary)
 - [Project Goals](#project-goals)
 - [Responsive Design](#responsive-design)
   - [Bootstrap's Responsive Grid System](#bootstraps-responsive-grid-system)
@@ -60,6 +59,35 @@ Click [here](https://jumaxi.github.io/blooming-harmony/) to explore the live ver
   - [About Us](#about-us)
   - [Contact Us](#contact-us)
   - [Thank you message](#thank-you-message)
+
+## Updates Summary
+
+At the top of this README, a **mockup generated using Canva** showcases screenshots of the website displayed on different devices, including desktop, tablet, laptop and mobile. This visual overview highlights the website’s responsive design and ensures a quick, at-a-glance understanding of how the layout adapts across screen sizes.
+
+### Carousel Enhancements
+- Added **visual indicators** to the carousel using **CSS/Bootstrap's built-in carousel indicators**.
+- These indicators show the total number of slides and highlight the currently active slide.
+
+### Naming Conventions
+- All **HTML, CSS, and image file names** now follow a consistent naming convention:
+  - **Lowercase letters**
+  - **Hyphens (`-`)** to separate words  
+  _Example: `introduction-seasons.html`, `hands-plant.webp`_
+
+### Responsive Design
+- A dedicated section has been added to the `README.md` explaining the **responsive design strategy**.
+- **Screenshots** were included to demonstrate how the website adapts to different devices, including mobile phones and tablets.
+- Check the new section here: [Responsive Design](#responsive-design)
+
+### Image Optimization
+- Converted image formats from **JPG/PNG to WebP** for better compression and faster load times.
+- Implemented **lazy loading** across all images using the `loading="lazy"` attribute.
+
+### Timeline Improvements
+- Added a **JavaScript enhancement** to the timeline page:
+- When the user opens the page, it automatically **scrolls horizontally to the current month**, improving navigation and user experience.
+
+---
 
 ## Project Goals
 - Create an **informative and user-friendly website** focused on sustainable gardening.  
