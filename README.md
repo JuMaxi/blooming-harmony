@@ -6,7 +6,7 @@ Click [here](https://jumaxi.github.io/blooming-harmony/) to explore the live ver
 
 ## Table of Contents
 
-- [Updates](#updates-summary)
+- [Updates](#updates)
 - [Project Goals](#project-goals)
 - [Responsive Design](#responsive-design)
   - [Bootstrap's Responsive Grid System](#bootstraps-responsive-grid-system)
@@ -60,7 +60,7 @@ Click [here](https://jumaxi.github.io/blooming-harmony/) to explore the live ver
   - [Contact Us](#contact-us)
   - [Thank you message](#thank-you-message)
 
-## Updates Summary
+## Updates
 
 At the top of this README, a **mockup generated using Canva** showcases screenshots of the website displayed on different devices, including desktop, tablet, laptop and mobile. This visual overview highlights the website’s responsive design and ensures a quick, at-a-glance understanding of how the layout adapts across screen sizes.
 
